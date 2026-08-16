@@ -1,0 +1,35 @@
+name: Kotlin CI Test Runner
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out code so the runner can access it
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Java Environment (Use Java 17 or 21 depending on your version)
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # Step 3: Set up Gradle and enable build caching to make future tests faster
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      # Step 4: Ensure the Gradle execution script has appropriate permissions
+      - name: Grant Execute Permission for Gradle Wrapper
+        run: chmod +x ./gradlew
+
+      # Step 5: Execute the unit tests
+      - name: Run Tests with Gradle
+        run: ./gradlew test
