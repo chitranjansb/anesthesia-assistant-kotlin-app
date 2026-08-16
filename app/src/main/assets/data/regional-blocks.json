@@ -1,0 +1,448 @@
+[
+  {
+    "id": "interscalene-block",
+    "name": "Interscalene Brachial Plexus Block",
+    "category": "Upper limb",
+    "targetNervesOrPlane": "Brachial plexus roots/trunks (C5–C7 predominant; C8/T1 often spared)",
+    "commonIndications": [
+      "Shoulder surgery",
+      "Proximal humerus surgery"
+    ],
+    "patientPosition": "Supine or semi-sitting, head turned away from the side to be blocked",
+    "landmarkTechnique": "Classic landmark approach identifies the interscalene groove between anterior and middle scalene muscles at the level of the cricoid cartilage (C6), with a nerve stimulator confirming a motor response before injection — largely superseded by ultrasound guidance where available.",
+    "ultrasoundApproach": "Probe placed transversely at the level of the cricoid cartilage lateral to the sternocleidomastoid; the plexus roots/trunks typically appear as a column of hypoechoic round structures (\"stoplight sign\") between anterior and middle scalene muscles.",
+    "needleApproach": "In-plane, lateral-to-medial, targeting the space between the visualized trunks.",
+    "localAnestheticVolume": "10–20 mL",
+    "onsetTime": "10–20 minutes",
+    "keyComplications": [
+      "Phrenic nerve palsy / hemidiaphragmatic paresis (very common, often near-universal without dose reduction)",
+      "Horner's syndrome (ipsilateral ptosis/miosis/anhidrosis)",
+      "Recurrent laryngeal nerve involvement (hoarseness)",
+      "Inadvertent intrathecal/epidural spread",
+      "Vertebral artery injection"
+    ],
+    "contraindications": [
+      "Contralateral phrenic/recurrent laryngeal nerve palsy",
+      "Severe respiratory disease intolerant of hemidiaphragmatic paresis",
+      "Patient refusal",
+      "Local infection at site"
+    ],
+    "pearls": [
+      "Counsel patients pre-block about expected transient hoarseness/ptosis and hand weakness/numbness",
+      "Consider lower-volume or superior-trunk-only technique to reduce phrenic nerve involvement, per unit practice",
+      "Poor block for hand/ulnar-distribution surgery — inferior trunk (C8/T1) is often spared"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "supraclavicular-block",
+    "name": "Supraclavicular Brachial Plexus Block",
+    "category": "Upper limb",
+    "targetNervesOrPlane": "Brachial plexus trunks/divisions (\"corner pocket\")",
+    "commonIndications": [
+      "Elbow, forearm, and hand surgery",
+      "Sometimes called the \"spinal of the arm\" for its dense, reliable block"
+    ],
+    "patientPosition": "Supine, head turned slightly away from the side to be blocked",
+    "landmarkTechnique": "Historically performed with surface landmarks (midpoint of clavicle) and nerve stimulation; carries a higher classically-taught pneumothorax risk without direct visualization, which is why ultrasound guidance is now standard practice.",
+    "ultrasoundApproach": "Probe placed in the supraclavicular fossa in the coronal-oblique plane; the plexus is visualized as a cluster of hypoechoic nodules (\"bunch of grapes\") lateral and superficial to the subclavian artery, with the first rib and pleura visible deep to the plexus.",
+    "needleApproach": "In-plane, lateral-to-medial, targeting the \"corner pocket\" between the artery and first rib for dense block.",
+    "localAnestheticVolume": "20–25 mL",
+    "onsetTime": "10–20 minutes",
+    "keyComplications": [
+      "Pneumothorax (classic concern, reduced with real-time ultrasound visualization)",
+      "Phrenic nerve palsy (less frequent than interscalene but still occurs)",
+      "Vascular puncture (subclavian artery is immediately adjacent)"
+    ],
+    "contraindications": [
+      "Contralateral phrenic nerve palsy",
+      "Severe pulmonary disease",
+      "Coagulopathy (relative, given vascular proximity)",
+      "Local infection at site"
+    ],
+    "pearls": [
+      "Often considered the most reliable single-injection block for the entire arm distal to the shoulder",
+      "Keep the needle tip visualized at all times given pleural proximity",
+      "Confirm no intravascular injection with intermittent aspiration and slow incremental injection"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "infraclavicular-block",
+    "name": "Infraclavicular Brachial Plexus Block",
+    "category": "Upper limb",
+    "targetNervesOrPlane": "Brachial plexus cords (lateral, posterior, medial) around the axillary artery",
+    "commonIndications": [
+      "Elbow, forearm, and hand surgery",
+      "Favorable for continuous catheter placement (stable landmarks, less catheter migration with arm movement)"
+    ],
+    "patientPosition": "Supine, arm adducted at the side or abducted to 90°",
+    "landmarkTechnique": "Classic coracoid approach uses the coracoid process as a surface landmark with a nerve-stimulator-guided needle insertion inferomedial to it; largely replaced by ultrasound guidance.",
+    "ultrasoundApproach": "Parasagittal probe placement just medial/inferior to the coracoid process; the axillary artery is visualized with the three cords typically seen clustered around it (lateral cord superficial/lateral, posterior cord deep, medial cord between artery and vein).",
+    "needleApproach": "In-plane, cephalad-to-caudad, aiming to deposit local anesthetic posterior to the artery (the \"U-shape\" spread target) for circumferential coverage of all three cords.",
+    "localAnestheticVolume": "15–25 mL",
+    "onsetTime": "15–25 minutes",
+    "keyComplications": [
+      "Vascular puncture (axillary artery/vein)",
+      "Pneumothorax (lower risk than supraclavicular but still possible)",
+      "Incomplete block if a cord is missed"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)",
+      "Patient refusal"
+    ],
+    "pearls": [
+      "Good choice for continuous perineural catheter techniques given the fixed, deep location relative to the shoulder",
+      "Posterior cord is often the last to block — deposit local anesthetic posterior to the artery first"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "axillary-block",
+    "name": "Axillary Brachial Plexus Block",
+    "category": "Upper limb",
+    "targetNervesOrPlane": "Median, ulnar, radial, and musculocutaneous nerves (terminal branches, individually identifiable around the axillary artery)",
+    "commonIndications": [
+      "Forearm and hand surgery",
+      "Favored where phrenic-sparing is important (no diaphragmatic risk)"
+    ],
+    "patientPosition": "Supine, arm abducted to 90° and externally rotated (\"surrender\" position)",
+    "landmarkTechnique": "Historic transarterial or nerve-stimulator technique injects around the palpated axillary artery pulse; ultrasound guidance now allows each of the four nerves to be individually visualized and blocked.",
+    "ultrasoundApproach": "Probe placed transversely in the axilla; median, ulnar, and radial nerves are visualized as discrete hyperechoic structures around the axillary artery, with the musculocutaneous nerve typically seen separately within or between the coracobrachialis/biceps muscles.",
+    "needleApproach": "In-plane, targeting each of the four nerves individually with small aliquots of local anesthetic around each (rather than a single large-volume injection).",
+    "localAnestheticVolume": "20–35 mL total (split across the 4 target nerves)",
+    "onsetTime": "15–30 minutes",
+    "keyComplications": [
+      "Vascular puncture (axillary artery — direct compression usually manages this)",
+      "Intravascular injection",
+      "Incomplete block if musculocutaneous nerve is missed (often blocked separately as it exits the plexus more proximally)"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Inability to abduct the arm (e.g. severe shoulder pathology)",
+      "Coagulopathy (relative)"
+    ],
+    "pearls": [
+      "No phrenic nerve risk — a good choice for patients with significant pulmonary disease needing forearm/hand surgery",
+      "Musculocutaneous nerve commonly requires a separate injection since it often exits the sheath proximal to the axilla"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "femoral-nerve-block",
+    "name": "Femoral Nerve Block",
+    "category": "Lower limb",
+    "targetNervesOrPlane": "Femoral nerve, lateral to the femoral artery within the femoral triangle",
+    "commonIndications": [
+      "Anterior thigh/knee surgery",
+      "Femur fracture analgesia",
+      "Total knee arthroplasty (increasingly superseded by adductor canal block to preserve quadriceps strength)"
+    ],
+    "patientPosition": "Supine, leg slightly externally rotated",
+    "landmarkTechnique": "Classic technique palpates the femoral artery pulse just below the inguinal ligament and directs the needle lateral to it with nerve-stimulator confirmation (quadriceps twitch/patellar snap).",
+    "ultrasoundApproach": "Probe placed transversely at the inguinal crease; the femoral nerve appears as a hyperechoic triangular/oval structure lateral to the femoral artery, deep to the fascia iliaca.",
+    "needleApproach": "In-plane, lateral-to-medial, depositing local anesthetic around the nerve deep to the fascia iliaca.",
+    "localAnestheticVolume": "15–20 mL",
+    "onsetTime": "15–20 minutes",
+    "keyComplications": [
+      "Quadriceps weakness / fall risk (motor block is expected, not a complication per se, but a major safety counselling point)",
+      "Vascular puncture",
+      "Rare femoral nerve injury"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)",
+      "Patient refusal"
+    ],
+    "pearls": [
+      "Counsel every patient about quadriceps weakness and fall precautions before ambulation",
+      "Adductor canal block is increasingly preferred for knee arthroplasty analgesia specifically to preserve quadriceps strength and reduce fall risk"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "adductor-canal-block",
+    "name": "Adductor Canal Block",
+    "category": "Lower limb",
+    "targetNervesOrPlane": "Saphenous nerve and articular branches within the adductor (subsartorial) canal, mid-thigh",
+    "commonIndications": [
+      "Total knee arthroplasty analgesia",
+      "Anterior/medial knee and lower leg procedures where motor-sparing is desired"
+    ],
+    "patientPosition": "Supine, leg slightly externally rotated",
+    "landmarkTechnique": "Not typically performed by landmark technique alone — ultrasound guidance is standard given the depth and variability of the canal.",
+    "ultrasoundApproach": "Probe placed transversely at the mid-to-distal thigh over the sartorius muscle; the canal is identified deep to sartorius, with the saphenous nerve typically seen adjacent to the femoral (superficial femoral) artery.",
+    "needleApproach": "In-plane, lateral-to-medial, depositing local anesthetic around the neurovascular bundle within the canal.",
+    "localAnestheticVolume": "10–20 mL",
+    "onsetTime": "15–20 minutes",
+    "keyComplications": [
+      "Generally low complication rate given the predominantly sensory target",
+      "Vascular puncture (femoral vessels within canal)"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)"
+    ],
+    "pearls": [
+      "Preserves quadriceps strength relative to a femoral nerve block — a major reason it has become the preferred technique for knee arthroplasty in many enhanced-recovery pathways",
+      "Provides less coverage of the anterior/lateral knee capsule than a femoral block — may need supplementation for some surgical approaches"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "popliteal-sciatic-block",
+    "name": "Sciatic Nerve Block (Popliteal Approach)",
+    "category": "Lower limb",
+    "targetNervesOrPlane": "Sciatic nerve, proximal to its bifurcation into tibial and common peroneal nerves",
+    "commonIndications": [
+      "Foot and ankle surgery",
+      "Distal lower leg surgery (often combined with a saphenous/adductor canal block for medial coverage)"
+    ],
+    "patientPosition": "Prone, lateral, or supine with the leg elevated, depending on operator preference",
+    "landmarkTechnique": "Classic technique uses surface landmarks in the popliteal fossa (apex of the popliteal triangle) with nerve-stimulator-guided needle advancement.",
+    "ultrasoundApproach": "Probe placed transversely in the popliteal crease; the tibial and common peroneal components are traced proximally to their confluence into the sciatic nerve, typically seen as a hyperechoic oval structure superficial to the popliteal artery.",
+    "needleApproach": "In-plane or out-of-plane, targeting a position just proximal to the bifurcation for a single injection covering both terminal branches.",
+    "localAnestheticVolume": "15–25 mL",
+    "onsetTime": "20–30 minutes (can be slower given nerve size)",
+    "keyComplications": [
+      "Foot drop / motor block (expected effect, counsel accordingly)",
+      "Vascular puncture (popliteal vessels)",
+      "Rare nerve injury"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)"
+    ],
+    "pearls": [
+      "Injecting just proximal to the sciatic bifurcation improves block reliability compared to injecting at the bifurcation itself",
+      "Combine with a saphenous/adductor canal block for procedures involving the medial ankle/foot, which the sciatic nerve does not cover"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "tap-block",
+    "name": "Transversus Abdominis Plane (TAP) Block",
+    "category": "Trunk & abdominal wall",
+    "targetNervesOrPlane": "Anterior rami of T7–L1 (thoracolumbar nerves) within the transversus abdominis plane",
+    "commonIndications": [
+      "Analgesia for lower abdominal incisions (appendectomy, C-section, abdominal wall surgery)",
+      "Component of multimodal analgesia in enhanced-recovery pathways"
+    ],
+    "patientPosition": "Supine",
+    "landmarkTechnique": "Historic \"double-pop\" landmark technique feels two fascial clicks (external oblique/internal oblique, then internal oblique/transversus abdominis) at the lumbar triangle of Petit; largely superseded by ultrasound guidance for accuracy.",
+    "ultrasoundApproach": "Probe placed transversely on the anterolateral abdominal wall between the costal margin and iliac crest; three muscle layers (external oblique, internal oblique, transversus abdominis) are identified, with the target plane being the fascial layer between internal oblique and transversus abdominis.",
+    "needleApproach": "In-plane, depositing local anesthetic within the TAP, watching for fluid spread separating the two muscle layers.",
+    "localAnestheticVolume": "15–20 mL per side",
+    "onsetTime": "20–30 minutes",
+    "keyComplications": [
+      "Intraperitoneal injection/visceral injury (rare with ultrasound guidance)",
+      "Local anesthetic systemic toxicity given bilateral large-volume dosing — see LAST crisis algorithm",
+      "Transient femoral nerve weakness if spread tracks inferiorly (uncommon)"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)"
+    ],
+    "pearls": [
+      "Provides somatic (skin/muscle) analgesia only — does not cover visceral pain, so it is an adjunct within multimodal analgesia, not a stand-alone anesthetic",
+      "Calculate total planned local anesthetic dose carefully when blocking bilaterally — see the LA maximum dose calculator"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "esp-block",
+    "name": "Erector Spinae Plane (ESP) Block",
+    "category": "Trunk & abdominal wall",
+    "targetNervesOrPlane": "Dorsal and ventral rami of spinal nerves via spread deep to erector spinae muscle, craniocaudal along the paraspinal fascial plane",
+    "commonIndications": [
+      "Thoracic and abdominal wall analgesia (rib fractures, thoracotomy/thoracoscopic surgery, abdominal surgery depending on level)",
+      "Increasingly used as a simpler, lower-risk alternative/adjunct to paravertebral or epidural blocks in some practices"
+    ],
+    "patientPosition": "Sitting, lateral, or prone depending on the level and operator preference",
+    "landmarkTechnique": "Not typically performed by landmark alone — ultrasound guidance is standard given the need to identify the correct transverse process level and fascial plane.",
+    "ultrasoundApproach": "Probe placed longitudinally (parasagittal) over the transverse process at the target vertebral level; the erector spinae muscle is identified overlying the transverse process, with the target plane being deep to the muscle and superficial to the transverse process.",
+    "needleApproach": "In-plane, cephalad-to-caudad or caudad-to-cephalad, contacting the transverse process before withdrawing slightly to deposit local anesthetic in the correct plane.",
+    "localAnestheticVolume": "20–30 mL",
+    "onsetTime": "20–30 minutes",
+    "keyComplications": [
+      "Generally favorable safety profile given the plane's distance from pleura/neuraxis, though pneumothorax and epidural spread have been reported",
+      "Local anesthetic systemic toxicity given large volumes — see LAST crisis algorithm"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative — though often considered lower-risk than neuraxial/paravertebral techniques)"
+    ],
+    "pearls": [
+      "Mechanism and reliability of spread are still an active area of study/debate in the literature — confirm current evidence and your unit's adopted indications before relying on it as a sole technique for major surgery",
+      "Contacting the transverse process (bony endpoint) before injecting is a key safety step distinguishing it from a paravertebral block"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "rectus-sheath-block",
+    "name": "Rectus Sheath Block",
+    "category": "Trunk & abdominal wall",
+    "targetNervesOrPlane": "Terminal branches of T9–T11 (sometimes T7/T8) intercostal nerves within the posterior rectus sheath",
+    "commonIndications": [
+      "Midline abdominal incisions (umbilical hernia repair, laparoscopic port sites, midline laparotomy analgesia adjunct)"
+    ],
+    "patientPosition": "Supine",
+    "landmarkTechnique": "Not typically performed by landmark alone given the need to visualize the posterior rectus sheath and avoid peritoneal puncture.",
+    "ultrasoundApproach": "Probe placed transversely over the rectus abdominis muscle lateral to the umbilicus; the target plane is between the posterior rectus sheath and the rectus abdominis muscle, with the peritoneum visible just deep to the sheath.",
+    "needleApproach": "In-plane, aiming to pierce the posterior sheath just enough to deposit local anesthetic in the plane without entering the peritoneal cavity.",
+    "localAnestheticVolume": "10–20 mL per side",
+    "onsetTime": "15–20 minutes",
+    "keyComplications": [
+      "Peritoneal puncture / visceral injury if the needle is advanced too deep",
+      "Local anesthetic systemic toxicity given bilateral dosing — see LAST crisis algorithm"
+    ],
+    "contraindications": [
+      "Local infection at site",
+      "Coagulopathy (relative)"
+    ],
+    "pearls": [
+      "Good adjunct specifically for midline incisions — does not cover lateral abdominal wall pain (pair with a TAP block if the incision extends laterally)"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "spinal-anesthesia",
+    "name": "Spinal (Subarachnoid) Block",
+    "category": "Neuraxial",
+    "targetNervesOrPlane": "Spinal nerve roots within the subarachnoid space (CSF)",
+    "commonIndications": [
+      "Lower abdominal, pelvic, and lower limb surgery",
+      "Cesarean section",
+      "Single-shot technique for procedures of predictable, limited duration"
+    ],
+    "patientPosition": "Sitting or lateral decubitus, with lumbar flexion (\"arching the back\") to open the interspinous spaces",
+    "landmarkTechnique": "Midline or paramedian approach at L3-4 or L4-5 (below the conus medullaris, classically estimated using Tuffier's line at the level of the iliac crests), advancing through skin, subcutaneous tissue, supraspinous/interspinous ligaments, ligamentum flavum, and dura until free flow of CSF is obtained.",
+    "needleApproach": "Midline or paramedian, typically with a pencil-point (atraumatic) needle to reduce post-dural-puncture headache risk.",
+    "localAnestheticVolume": "1–3 mL (dose is by total mg/baricity, not a volume-based teaching range like peripheral blocks — dosing depends heavily on patient height, desired block height, and drug baricity)",
+    "onsetTime": "5–10 minutes",
+    "keyComplications": [
+      "Hypotension/bradycardia from sympathetic blockade",
+      "High/total spinal (respiratory/cardiovascular collapse — requires immediate airway/hemodynamic support)",
+      "Post-dural-puncture headache",
+      "Rare: epidural hematoma, meningitis, transient neurologic symptoms"
+    ],
+    "contraindications": [
+      "Patient refusal",
+      "Coagulopathy/anticoagulation per current neuraxial-anticoagulation timing guidance (verify against current ASRA-style interval tables before proceeding)",
+      "Local infection at the injection site",
+      "Severe hypovolemia/shock (relative, situation-dependent)",
+      "Raised intracranial pressure"
+    ],
+    "pearls": [
+      "Confirm neuraxial anticoagulation timing intervals against current guidance for the specific agent before every block — these intervals are updated periodically and are not safe to recall from memory alone",
+      "Have vasopressors and IV fluids immediately available before performing the block given the predictable hemodynamic effects"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "epidural-anesthesia",
+    "name": "Epidural Block (incl. Labour Epidural)",
+    "category": "Neuraxial",
+    "targetNervesOrPlane": "Spinal nerve roots via local anesthetic spread within the epidural space (outside the dura)",
+    "commonIndications": [
+      "Labour analgesia",
+      "Post-operative analgesia (thoracic/abdominal surgery)",
+      "Surgical anesthesia (often combined with general anesthesia for major abdominal/thoracic cases)"
+    ],
+    "patientPosition": "Sitting or lateral decubitus, with lumbar (or thoracic, per indication) flexion",
+    "landmarkTechnique": "Midline or paramedian approach using loss-of-resistance (to saline or air, per operator preference) as the needle passes through ligamentum flavum into the epidural space; a catheter is then threaded for continuous infusion or intermittent bolusing.",
+    "needleApproach": "Midline or paramedian, Tuohy needle with loss-of-resistance technique; test dose given before full dosing to help exclude inadvertent intrathecal or intravascular placement.",
+    "localAnestheticVolume": "Test dose 3–5 mL, then incremental/infusion dosing titrated to effect — total volumes vary widely by indication (labour vs. surgical vs. postoperative) and are not a single fixed range",
+    "onsetTime": "15–20 minutes (slower than spinal)",
+    "keyComplications": [
+      "Inadvertent dural puncture (\"wet tap\") and post-dural-puncture headache",
+      "Inadvertent intrathecal injection (high/total spinal) or intravascular injection (LAST) if the test dose is not respected",
+      "Epidural hematoma/abscess (rare but serious)",
+      "Hypotension from sympathetic blockade"
+    ],
+    "contraindications": [
+      "Patient refusal",
+      "Coagulopathy/anticoagulation per current neuraxial-anticoagulation timing guidance",
+      "Local infection at the injection site",
+      "Raised intracranial pressure"
+    ],
+    "pearls": [
+      "Always give and interpret a test dose (classically epinephrine-containing) before committing to the full epidural dose — a positive test dose (heart rate rise) suggests intravascular placement",
+      "Confirm neuraxial anticoagulation timing intervals against current guidance before catheter placement AND before removal — removal timing is just as important as insertion timing"
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught regional anesthesia technique structure (textbook-level, ASRA/NYSORA-style teaching descriptions)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  }
+]

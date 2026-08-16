@@ -1,0 +1,6 @@
+{
+  "name": "Anesthesia Assistant",
+  "description": "Offline-first clinical reference for anesthesia residents — drug handbook, calculators, crisis algorithms, protocols, checklists, regional blocks, and case planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

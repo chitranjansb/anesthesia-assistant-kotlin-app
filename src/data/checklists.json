@@ -1,0 +1,397 @@
+[
+  {
+    "id": "who-sign-in",
+    "title": "Surgical Safety — Sign In",
+    "phase": "Before induction of anaesthesia",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Patient identity, procedure, and site confirmed with the patient",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Consent verified",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Surgical site marked (where applicable)",
+        "critical": true
+      },
+      {
+        "id": "i4",
+        "label": "Anaesthesia machine and medication check completed",
+        "critical": true
+      },
+      {
+        "id": "i5",
+        "label": "Pulse oximeter attached and functioning"
+      },
+      {
+        "id": "i6",
+        "label": "Known allergies reviewed"
+      },
+      {
+        "id": "i7",
+        "label": "Difficult airway or aspiration risk assessed, with equipment/help available if needed",
+        "critical": true
+      },
+      {
+        "id": "i8",
+        "label": "Risk of significant blood loss assessed, with IV access/fluids/blood planned accordingly"
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after published surgical safety checklist concepts)",
+      "title": "Surgical Safety Checklist — Sign In phase",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "who-time-out",
+    "title": "Surgical Safety — Time Out",
+    "phase": "Before skin incision",
+    "items": [
+      {
+        "id": "i1",
+        "label": "All team members introduced by name and role",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Patient name, procedure, and incision site confirmed aloud by the whole team",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Antibiotic prophylaxis given within the appropriate window (or explicitly not indicated)",
+        "critical": true
+      },
+      {
+        "id": "i4",
+        "label": "Anticipated critical or unusual steps discussed by the surgical team"
+      },
+      {
+        "id": "i5",
+        "label": "Anaesthesia team's concerns for this patient discussed"
+      },
+      {
+        "id": "i6",
+        "label": "Sterility of instruments confirmed (including indicator results)"
+      },
+      {
+        "id": "i7",
+        "label": "Essential imaging displayed, where relevant"
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after published surgical safety checklist concepts)",
+      "title": "Surgical Safety Checklist — Time Out phase",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "who-sign-out",
+    "title": "Surgical Safety — Sign Out",
+    "phase": "Before the patient leaves the operating room",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Procedure performed is recorded",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Instrument, sponge, and needle counts confirmed correct",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Specimens labelled correctly, including patient name"
+      },
+      {
+        "id": "i4",
+        "label": "Any equipment problems identified and flagged for follow-up"
+      },
+      {
+        "id": "i5",
+        "label": "Key concerns for recovery and post-operative management communicated to the receiving team",
+        "critical": true
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after published surgical safety checklist concepts)",
+      "title": "Surgical Safety Checklist — Sign Out phase",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "anaesthesia-machine-check",
+    "title": "Anaesthesia Machine Check",
+    "phase": "Before the first case of the day",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Power supply and backup battery checked",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Gas supply pressures (pipeline and backup cylinders) checked",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Breathing circuit checked for leaks and correct assembly",
+        "critical": true
+      },
+      {
+        "id": "i4",
+        "label": "Scavenging system connected and functioning"
+      },
+      {
+        "id": "i5",
+        "label": "Vaporizers checked for fill level and correct seating",
+        "critical": true
+      },
+      {
+        "id": "i6",
+        "label": "Self-inflating bag and alternative means of ventilation available",
+        "critical": true
+      },
+      {
+        "id": "i7",
+        "label": "Suction tested and functioning",
+        "critical": true
+      },
+      {
+        "id": "i8",
+        "label": "Monitors calibrated/checked (SpO2, capnography, NIBP, ECG, temperature)"
+      },
+      {
+        "id": "i9",
+        "label": "Airway equipment and emergency drugs checked and immediately available",
+        "critical": true
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General anaesthesia machine check concepts (textbook-level)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "extubation-checklist",
+    "title": "Extubation Readiness",
+    "phase": "Before extubation",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Neuromuscular block adequately reversed (clinically and/or by quantitative monitoring)",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Patient breathing spontaneously with adequate tidal volumes"
+      },
+      {
+        "id": "i3",
+        "label": "Haemodynamically stable"
+      },
+      {
+        "id": "i4",
+        "label": "Protective airway reflexes returning (swallow/cough)"
+      },
+      {
+        "id": "i5",
+        "label": "Adequate analgesia and normothermia"
+      },
+      {
+        "id": "i6",
+        "label": "Suction and airway rescue equipment immediately available",
+        "critical": true
+      },
+      {
+        "id": "i7",
+        "label": "Plan agreed for a difficult airway if re-intubation is needed"
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General extubation readiness concepts (textbook-level)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "sepsis-hour1-bundle",
+    "title": "Sepsis Hour-1 Bundle",
+    "phase": "Within 1 hour of sepsis/septic shock recognition",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Measure lactate (repeat if initial lactate >2 mmol/L)",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Obtain blood cultures before starting antibiotics",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Administer broad-spectrum antibiotics",
+        "critical": true
+      },
+      {
+        "id": "i4",
+        "label": "Begin rapid administration of 30 mL/kg crystalloid for hypotension or lactate ≥4 mmol/L",
+        "critical": true
+      },
+      {
+        "id": "i5",
+        "label": "Apply vasopressors if hypotensive during or after fluid resuscitation to maintain MAP ≥65 mmHg",
+        "critical": true
+      },
+      {
+        "id": "i6",
+        "label": "Reassess volume status and tissue perfusion after initial resuscitation"
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after Surviving Sepsis Campaign Hour-1 bundle concept)",
+      "title": "Sepsis Hour-1 Bundle — core elements",
+      "year": 2024,
+      "evidenceLevel": "Guideline (Class I)"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "fasthug-daily-rounds",
+    "title": "Daily ICU Rounds Checklist (FASTHUG-MAIDENS)",
+    "phase": "Daily ICU rounds",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Feeding — nutrition plan reviewed"
+      },
+      {
+        "id": "i2",
+        "label": "Analgesia — pain adequately controlled",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Sedation — target RASS reviewed, daily interruption considered",
+        "critical": true
+      },
+      {
+        "id": "i4",
+        "label": "Thromboprophylaxis — DVT prophylaxis ordered/appropriate",
+        "critical": true
+      },
+      {
+        "id": "i5",
+        "label": "Head-of-bed elevation 30–45° (if not contraindicated)"
+      },
+      {
+        "id": "i6",
+        "label": "Ulcer (stress) prophylaxis reviewed"
+      },
+      {
+        "id": "i7",
+        "label": "Glucose control reviewed"
+      },
+      {
+        "id": "i8",
+        "label": "Mobility — early mobilization considered"
+      },
+      {
+        "id": "i9",
+        "label": "Antibiotics — indication, day count, de-escalation reviewed",
+        "critical": true
+      },
+      {
+        "id": "i10",
+        "label": "Indwelling catheters/lines — necessity reviewed, remove if not needed",
+        "critical": true
+      },
+      {
+        "id": "i11",
+        "label": "De-escalation — overall care plan and goals reviewed"
+      },
+      {
+        "id": "i12",
+        "label": "Spontaneous breathing trial readiness screened (if ventilated)",
+        "critical": true
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after the FASTHUG / FASTHUG-MAIDENS teaching mnemonic)",
+      "title": "Daily ICU rounds checklist — core elements",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "crrt-circuit-setup",
+    "title": "CRRT Circuit Setup & Initiation",
+    "phase": "Before starting continuous renal replacement therapy",
+    "items": [
+      {
+        "id": "i1",
+        "label": "Indication for CRRT confirmed and documented",
+        "critical": true
+      },
+      {
+        "id": "i2",
+        "label": "Vascular access (dialysis catheter) patency confirmed",
+        "critical": true
+      },
+      {
+        "id": "i3",
+        "label": "Modality selected (CVVH / CVVHD / CVVHDF)"
+      },
+      {
+        "id": "i4",
+        "label": "Target effluent dose prescribed (mL/kg/hr)",
+        "critical": true
+      },
+      {
+        "id": "i5",
+        "label": "Anticoagulation strategy selected (citrate / systemic heparin / none) with monitoring plan",
+        "critical": true
+      },
+      {
+        "id": "i6",
+        "label": "Baseline electrolytes, calcium, coagulation profile sent"
+      },
+      {
+        "id": "i7",
+        "label": "Fluid balance/removal target for the shift set"
+      },
+      {
+        "id": "i8",
+        "label": "Alarm limits and circuit pressures checked at initiation"
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  }
+]

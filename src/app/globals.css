@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Design language: "Monitor" — grounded in the OT vital-signs monitor.
+  Teal/cyan traces on deep slate, numeric clinical values set in mono
+  to read like an instrument readout rather than marketing copy.
+*/
+
+@layer base {
+  :root {
+    --background: 200 20% 98%;
+    --foreground: 215 35% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 35% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 35% 12%;
+
+    --primary: 178 65% 26%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 25% 94%;
+    --secondary-foreground: 215 35% 16%;
+
+    --muted: 200 20% 94%;
+    --muted-foreground: 215 15% 42%;
+
+    --accent: 187 75% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --critical: 355 75% 46%;
+    --critical-foreground: 0 0% 100%;
+
+    --border: 200 18% 87%;
+    --input: 200 18% 87%;
+    --ring: 178 65% 30%;
+
+    --radius: 0.85rem;
+
+    --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+  }
+
+  .dark {
+    --background: 215 38% 7%;
+    --foreground: 200 25% 92%;
+
+    --card: 215 32% 10%;
+    --card-foreground: 200 25% 92%;
+
+    --popover: 215 32% 10%;
+    --popover-foreground: 200 25% 92%;
+
+    --primary: 178 68% 44%;
+    --primary-foreground: 215 40% 6%;
+
+    --secondary: 215 24% 15%;
+    --secondary-foreground: 200 25% 92%;
+
+    --muted: 215 24% 14%;
+    --muted-foreground: 200 12% 62%;
+
+    --accent: 187 85% 55%;
+    --accent-foreground: 215 40% 6%;
+
+    --critical: 355 80% 58%;
+    --critical-foreground: 215 40% 6%;
+
+    --border: 215 22% 20%;
+    --input: 215 22% 20%;
+    --ring: 178 68% 44%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  /* Numeric clinical values read like an instrument readout */
+  .clinical-value {
+    @apply font-mono tabular-nums;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/70 backdrop-blur-xl border border-border/60 shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset];
+  }
+
+  .trace-divider {
+    @apply w-full h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent;
+  }
+}
+
+/* Respect reduced-motion preference throughout the app */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

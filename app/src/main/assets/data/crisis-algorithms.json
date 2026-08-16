@@ -1,0 +1,402 @@
+[
+  {
+    "id": "anaphylaxis",
+    "title": "Intraoperative Anaphylaxis",
+    "category": "Immune / allergic",
+    "triggerCriteria": "Sudden hypotension, bronchospasm, flushing/urticaria, or angioedema after exposure to a drug, blood product, or latex.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Call for help & stop trigger",
+        "instruction": "Call for help. Stop administration of the suspected triggering agent immediately.",
+        "checklist": [
+          "Stop suspected drug/blood product",
+          "Call for senior help",
+          "Note time of onset"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Airway & oxygen",
+        "instruction": "Give 100% oxygen. Secure/support the airway if compromised.",
+        "timerSeconds": 60
+      },
+      {
+        "id": "s3",
+        "title": "Epinephrine",
+        "instruction": "Give epinephrine as first-line treatment — see Drug Handbook (Epinephrine) for dosing by route and severity, and follow your institutional anaphylaxis protocol.",
+        "drugSuggestions": [
+          "epinephrine"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Fluids & positioning",
+        "instruction": "Give rapid IV crystalloid bolus for hypotension. Lay patient flat with legs raised if tolerated.",
+        "timerSeconds": 300
+      },
+      {
+        "id": "s5",
+        "title": "Second-line therapy",
+        "instruction": "Consider antihistamines, corticosteroids, and bronchodilators per institutional protocol — these are adjuncts, not substitutes for epinephrine.",
+        "checklist": [
+          "Antihistamine given?",
+          "Corticosteroid given?",
+          "Bronchodilator if wheeze?"
+        ]
+      },
+      {
+        "id": "s6",
+        "title": "Post-event",
+        "instruction": "Send serum tryptase (immediate + 1–2h + 24h per protocol). Document the suspected trigger and refer for allergy work-up.",
+        "checklist": [
+          "Tryptase samples sent",
+          "Trigger documented",
+          "Allergy referral arranged"
+        ]
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General anaphylaxis management sequence (textbook-level structure)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "malignant-hyperthermia",
+    "title": "Malignant Hyperthermia (MH)",
+    "category": "Pharmacogenetic emergency",
+    "triggerCriteria": "Unexplained rising end-tidal CO2, tachycardia, muscle rigidity, rising temperature, or dark urine (myoglobinuria) after a triggering volatile agent or succinylcholine.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Stop triggers & call for help",
+        "instruction": "Stop all volatile agents and succinylcholine immediately. Call for help and declare an MH emergency.",
+        "checklist": [
+          "Volatile agent off",
+          "Succinylcholine stopped",
+          "Help called",
+          "MH cart requested"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Switch circuit & hyperventilate",
+        "instruction": "Switch to a clean circuit/machine if available and hyperventilate with 100% oxygen at high flows.",
+        "timerSeconds": 120
+      },
+      {
+        "id": "s3",
+        "title": "Give dantrolene",
+        "instruction": "Initial dose 2.5 mg/kg IV (up to 10 mg/kg until symptoms subside). Older powder form: 20-mg vials, reconstitute in sterile WATER (not saline — it precipitates), 2–3 mg/kg; newer rapid-dissolve form: 250-mg vials reconstitute as a suspension (full dose faster). Give via large-bore IV line. Repeat as needed; continue maintenance 1 mg/kg every 4–6 h × 24 h; total dose may reach 30 mg/kg.",
+        "drugSuggestions": []
+      },
+      {
+        "id": "s4",
+        "title": "Active cooling",
+        "instruction": "Begin active cooling if temperature is rising (circulating water mattress/ice packs first; if insufficient, infuse 20 mL/kg refrigerated IV crystalloid, or peritoneal lavage if peritoneum open). Halt cooling at 38 °C to avoid overshoot hypothermia.",
+        "timerSeconds": 300
+      },
+      {
+        "id": "s5",
+        "title": "Treat complications",
+        "instruction": "Bicarbonate 1–4 mEq/kg IV for metabolic acidosis (monitor gases/pH). Treat hyperkalaemia with bicarbonate, glucose + insulin (adult: 10 units regular insulin + 50 mL 50% dextrose), and calcium if severe. Maintain urine output >1–2 mL/kg/h (bicarbonate to alkalinise urine for myoglobinuria). Treat arrhythmias per ACLS; avoid calcium-channel blockers.",
+        "checklist": [
+          "ABG/pH monitored",
+          "K+ treated",
+          "Urine output >1–2 mL/kg/h",
+          "CK/temperature/myoglobinuria trended"
+        ]
+      },
+      {
+        "id": "s6",
+        "title": "Escalate & get expert help",
+        "instruction": "Contact your national/regional MH hotline (e.g. North American MH Registry 1-800-644-9737) if available, and arrange ICU admission for 24–48 h — recrudescence occurs in up to ~50% (usually within 6.5 h, up to 16 h). Monitor coagulation (INR, platelets, fibrinogen).",
+        "checklist": [
+          "MH hotline called",
+          "ICU transfer arranged",
+          "Recrudescence window covered 24–48 h"
+        ]
+      }
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 31 Neuromuscular Disorders and Other Genetic Disorders — Malignant Hyperthermia)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "last",
+    "title": "Local Anaesthetic Systemic Toxicity (LAST)",
+    "category": "Local anaesthetic emergency",
+    "triggerCriteria": "Perioral numbness, tinnitus, seizure, or sudden cardiovascular collapse/arrhythmia after regional block or local infiltration.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Stop injection & call for help",
+        "instruction": "Stop injecting local anaesthetic immediately. Call for help and get the lipid emulsion kit."
+      },
+      {
+        "id": "s2",
+        "title": "Airway & seizure control",
+        "instruction": "Give 100% oxygen, secure the airway, and treat seizures with a benzodiazepine — avoid propofol if the patient is haemodynamically unstable.",
+        "drugSuggestions": [
+          "midazolam"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "Lipid emulsion therapy",
+        "instruction": "Along with basic life support and ACLS, give a rapid bolus of Intralipid 20%, 1.5 mL/kg ideal body weight (up to 100 mL in adults), followed by an infusion of 0.25 mL/kg/min (up to a volume of 200–250 mL). Redose per clinical assessment; continue infusion for 10 min after circulatory stability returns. Avoid propofol (lipid emulsion vehicle) in haemodynamic instability.",
+        "drugSuggestions": []
+      },
+      {
+        "id": "s4",
+        "title": "Cardiac arrest modifications",
+        "instruction": "If cardiac arrest occurs, follow standard ACLS with these modifications: avoid vasopressin, reduce individual epinephrine boluses, avoid calcium channel blockers and beta-blockers, and be prepared for prolonged resuscitation."
+      },
+      {
+        "id": "s5",
+        "title": "Post-event",
+        "instruction": "Monitor for at least 4–6 hours after a cardiovascular event (or 2 hours after a limited CNS-only event) per widely taught LAST guidance, and document the total local anaesthetic dose given."
+      }
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 25 Local Anesthetics — Local Anaesthetic Systemic Toxicity)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "adult-cardiac-arrest",
+    "title": "Adult Cardiac Arrest (Perioperative)",
+    "category": "Cardiac arrest",
+    "triggerCriteria": "Absent pulse / unresponsive with no normal breathing.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Call for help & start compressions",
+        "instruction": "Call for help, start high-quality chest compressions (rate ~100–120/min, depth ~5cm in adults), and attach a defibrillator/monitor as soon as possible."
+      },
+      {
+        "id": "s2",
+        "title": "Rhythm check",
+        "instruction": "Check rhythm every 2 minutes. Shockable (VF/pulseless VT) vs non-shockable (PEA/asystole) determines the next step."
+      },
+      {
+        "id": "s3",
+        "title": "Shockable rhythm",
+        "instruction": "Defibrillate, resume compressions immediately, and give epinephrine after the 2nd shock, then every other cycle; consider amiodarone after the 3rd shock per standard ACLS sequencing.",
+        "drugSuggestions": [
+          "epinephrine"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "Non-shockable rhythm",
+        "instruction": "Continue CPR, give epinephrine as soon as feasible and every 3–5 minutes, and search for reversible causes.",
+        "drugSuggestions": [
+          "epinephrine"
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "Reversible causes (Hs & Ts)",
+        "instruction": "Consider hypoxia, hypovolaemia, hydrogen ion (acidosis), hypo/hyperkalaemia, hypothermia, tension pneumothorax, tamponade, toxins, thrombosis (coronary/pulmonary) — anaesthesia-specific causes (high spinal, LAST, anaphylaxis, gas embolism) should be actively considered in theatre.",
+        "checklist": [
+          "Hypoxia excluded/treated",
+          "Volume status addressed",
+          "Tension pneumothorax excluded",
+          "Anaesthesia-specific cause considered"
+        ]
+      },
+      {
+        "id": "s6",
+        "title": "Post-resuscitation care",
+        "instruction": "If ROSC achieved, optimise oxygenation/ventilation, treat hypotension, obtain a 12-lead ECG, and arrange appropriate post-arrest care/ICU transfer."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General adult cardiac arrest sequence, structured after widely-published ACLS algorithms",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "laryngospasm",
+    "title": "Laryngospasm",
+    "category": "Airway emergency",
+    "triggerCriteria": "Stridor or complete airway obstruction with paradoxical chest movement, typically during light anaesthesia (induction/emergence) with airway stimulation.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Remove stimulus & call for help",
+        "instruction": "Remove the stimulating trigger (suction, airway device) if possible and call for help."
+      },
+      {
+        "id": "s2",
+        "title": "100% oxygen & jaw thrust",
+        "instruction": "Apply 100% oxygen with CPAP via a tight-fitting mask, and perform a firm jaw thrust with laryngospasm notch pressure."
+      },
+      {
+        "id": "s3",
+        "title": "Deepen anaesthesia",
+        "instruction": "If not resolving, deepen anaesthesia with IV or inhalational agent if the airway allows it."
+      },
+      {
+        "id": "s4",
+        "title": "Break persistent spasm",
+        "instruction": "If obstruction persists with desaturation, give a small dose of IV succinylcholine (± atropine in children) to break the spasm and allow ventilation/intubation — see Drug Handbook for dosing.",
+        "drugSuggestions": [
+          "succinylcholine",
+          "atropine"
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "Secure airway & reassess",
+        "instruction": "Once ventilation is possible, reassess depth of anaesthesia and the plan for airway management before proceeding."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General laryngospasm management sequence (textbook-level structure)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "septic-shock-resuscitation",
+    "title": "Septic Shock — Recognition & Resuscitation",
+    "category": "Sepsis",
+    "triggerCriteria": "Suspected or confirmed infection with hypotension requiring vasopressors to maintain MAP ≥65 mmHg AND lactate >2 mmol/L despite adequate fluid resuscitation (or qSOFA ≥2 / clinical concern prompting urgent workup).",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Recognize & call for help",
+        "instruction": "Identify suspected source of infection. Call for senior help. Note time zero for the Hour-1 bundle.",
+        "checklist": [
+          "Suspected source identified",
+          "Senior help called",
+          "Time zero noted"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "Cultures & lactate",
+        "instruction": "Draw blood cultures (before antibiotics if it will not meaningfully delay them) and send lactate.",
+        "timerSeconds": 300
+      },
+      {
+        "id": "s3",
+        "title": "Antibiotics",
+        "instruction": "Give broad-spectrum antibiotics per local sepsis protocol/antibiogram as early as possible.",
+        "timerSeconds": 3600
+      },
+      {
+        "id": "s4",
+        "title": "Fluid resuscitation",
+        "instruction": "Give 30 mL/kg crystalloid rapidly for hypotension or lactate ≥4 mmol/L, reassessing for fluid responsiveness and signs of overload as it is given.",
+        "timerSeconds": 1800
+      },
+      {
+        "id": "s5",
+        "title": "Vasopressors",
+        "instruction": "Start norepinephrine as first-line vasopressor if MAP remains <65 mmHg during/after fluid resuscitation — see Drug Handbook (Norepinephrine) for dosing.",
+        "drugSuggestions": [
+          "norepinephrine"
+        ]
+      },
+      {
+        "id": "s6",
+        "title": "Reassess & source control",
+        "instruction": "Reassess perfusion (repeat lactate, capillary refill, urine output, mental status). Identify and pursue source control (drainage, device removal, debridement) where applicable.",
+        "checklist": [
+          "Repeat lactate sent",
+          "Perfusion reassessed",
+          "Source control need evaluated"
+        ]
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after Surviving Sepsis Campaign Hour-1 bundle concept)",
+      "title": "Septic shock recognition and initial resuscitation sequence",
+      "year": 2024,
+      "evidenceLevel": "Guideline (Class I)"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "ventilator-high-pressure",
+    "title": "Sudden High Airway Pressure / Desaturation on the Ventilator (DOPES)",
+    "category": "Ventilator emergency",
+    "triggerCriteria": "Acute rise in peak/plateau airway pressure, ventilator high-pressure alarm, or acute desaturation in an intubated/ventilated patient.",
+    "steps": [
+      {
+        "id": "s1",
+        "title": "Disconnect & bag",
+        "instruction": "If severe/acute, disconnect from the ventilator and hand-ventilate with 100% oxygen via a self-inflating bag — this immediately distinguishes a patient problem from a ventilator/circuit problem based on whether resistance is felt on the bag.",
+        "checklist": [
+          "Disconnected from ventilator",
+          "Hand-ventilating on 100% O2",
+          "Resistance on bagging assessed"
+        ]
+      },
+      {
+        "id": "s2",
+        "title": "D — Displacement",
+        "instruction": "Check for tube displacement (endobronchial migration, accidental extubation, cuff herniation). Auscultate for bilateral breath sounds, check tube depth at the lips, check capnography waveform.",
+        "checklist": [
+          "Bilateral breath sounds confirmed",
+          "Tube depth checked",
+          "Capnography waveform present"
+        ]
+      },
+      {
+        "id": "s3",
+        "title": "O — Obstruction",
+        "instruction": "Check for tube/circuit obstruction — kinking, biting, secretions, mucus plug. Pass a suction catheter to check patency; suction if secretions suspected.",
+        "checklist": [
+          "Suction catheter passes freely",
+          "Suctioned for secretions"
+        ]
+      },
+      {
+        "id": "s4",
+        "title": "P — Pneumothorax",
+        "instruction": "Assess for tension pneumothorax — unilateral decreased breath sounds, hyperresonance, tracheal deviation, hemodynamic instability. If suspected in an unstable patient, proceed to emergency needle/finger decompression per local protocol without waiting for imaging.",
+        "checklist": [
+          "Chest auscultated bilaterally",
+          "Hemodynamics reassessed",
+          "Decompression performed if tension physiology suspected"
+        ]
+      },
+      {
+        "id": "s5",
+        "title": "E — Equipment",
+        "instruction": "Check the ventilator and circuit — valve malfunction, circuit disconnection/kinking elsewhere, exhausted CO2 absorbent, ventilator settings entered incorrectly. Switch to a fresh bag-circuit if any doubt about the machine."
+      },
+      {
+        "id": "s6",
+        "title": "S — Stacked breaths / Stomach / Spasm",
+        "instruction": "Consider breath-stacking/auto-PEEP (especially in obstructive lung disease — disconnect briefly to allow full exhalation), gastric distension splinting the diaphragm, and bronchospasm (auscultate for wheeze; consider bronchodilators)."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder (structured after the widely-taught DOPES ventilator-troubleshooting mnemonic)",
+      "title": "Acute ventilator high-pressure / desaturation troubleshooting sequence",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  }
+]

@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "propofol",
+    "genericName": "Propofol",
+    "brandExamplesIndia": [
+      "Neorof",
+      "Provive",
+      "Pofol"
+    ],
+    "drugClass": "Intravenous anaesthetic (alkylphenol)",
+    "mechanism": "Potentiates GABA-A receptor chloride currents, producing dose-dependent CNS depression.",
+    "concentrations": [
+      "1% (10 mg/mL)",
+      "2% (20 mg/kg)"
+    ],
+    "preparation": "Lipid emulsion (soybean oil/egg lecithin/glycerol) — supports microbial growth once opened.",
+    "dilution": "Usually given undiluted for bolus; for infusion may be used neat via dedicated line/pump.",
+    "pharmacokinetics": {
+      "onset": "~30–45 seconds (loss of consciousness within ~1 min of induction dose)",
+      "peak": "~90 seconds",
+      "duration": "5–10 minutes (single bolus); context-sensitive half-time prolonged with infusion",
+      "proteinBinding": "~98%",
+      "halfLife": "Terminal half-life hours; clinical offset fast due to redistribution",
+      "metabolism": "Hepatic and extrahepatic (lung) conjugation",
+      "excretion": "Renal (inactive metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Induction",
+        "value": "1–2.5 mg/kg IV; dose reduced with increasing age (elderly >60 yr often 1–1.75 mg/kg, especially with premedication)",
+        "notes": "Physiologic determinants of induction dose: age, lean body mass, central blood volume. Opiate/benzodiazepine premedication markedly reduces requirement."
+      },
+      "pediatric": {
+        "label": "Induction (>1 month)",
+        "value": "ED95 2–3 mg/kg; children require larger mg/kg than adults",
+        "notes": "Not for procedural sedation in children <16 yr in ICU (PRIS risk)."
+      },
+      "geriatric": {
+        "label": "Induction",
+        "value": "Reduce dose ~20–50%; patients >80 yr may need ~half the young-adult dose",
+        "notes": "Older/sicker (ASA III–IV) patients develop more profound hypotension, especially combined with an opiate."
+      },
+      "obese": {
+        "label": "Induction",
+        "value": "Commonly dosed on lean/adjusted body weight"
+      },
+      "infusion": {
+        "label": "TIVA maintenance",
+        "value": "50–150 mcg/kg/min IV combined with N2O or an opiate; after induction, 100–200 mcg/kg/min usually needed, titrated to stimulus",
+        "notes": "Sedation 25–75 mcg/kg/min; antiemetic 10–20 mg IV (can repeat q5–10 min) — propofol has intrinsic antiemetic activity."
+      },
+      "maximum": {
+        "label": "Infusion duration caution",
+        "value": "Prolonged high-dose infusion carries Propofol Infusion Syndrome (PRIS) risk"
+      }
+    },
+    "pregnancy": "Crosses placenta; used for GA in pregnancy when indicated — institutional protocol should guide use.",
+    "lactation": "Considered compatible in many protocols; confirm locally.",
+    "contraindications": [
+      "Known hypersensitivity to propofol or its emulsion components (soy/egg allergy — verify institutional stance)"
+    ],
+    "interactions": [
+      "Synergistic CNS/respiratory depression with opioids and benzodiazepines"
+    ],
+    "sideEffects": [
+      "Injection pain",
+      "Hypotension",
+      "Apnoea",
+      "Bradycardia",
+      "Propofol Infusion Syndrome (prolonged infusion)"
+    ],
+    "overdoseManagement": "Supportive: airway, ventilation, vasopressor support for hypotension.",
+    "monitoring": [
+      "Blood pressure",
+      "SpO2",
+      "Level of consciousness"
+    ],
+    "storage": "Store per manufacturer instructions; discard opened vial within manufacturer-specified window (lipid emulsion supports bacterial growth).",
+    "ampouleColor": "White (emulsion appearance, not a colour-code)",
+    "quickTips": [
+      "Injection pain reduced by pre-treatment with IV lidocaine or injecting into a larger vein",
+      "Reduce dose in elderly and when co-inducting with opioids"
+    ],
+    "tags": [
+      "induction",
+      "TIVA",
+      "sedation",
+      "antiemetic"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 21 Intravenous Anesthetics)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "indigo",
+    "rsi": {
+      "label": "RSI induction",
+      "value": "2–2.5 mg/kg IV (reduce with premedication/age)",
+      "notes": "Commonly paired with rocuronium 1.2 mg/kg for RSI."
+    },
+    "infusionPrep": "TIVA: 200 mg in 20 mL (or 500 mg in 50 mL NS) → 10 mg/mL; run 50–150 mcg/kg/min.",
+    "fluidCompatibility": "Lipid emulsion — give via dedicated line; do not mix with other agents in the same syringe.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "succinylcholine",
+    "genericName": "Succinylcholine (Suxamethonium)",
+    "brandExamplesIndia": [
+      "Scoline",
+      "Sucotin"
+    ],
+    "drugClass": "Depolarising neuromuscular blocker",
+    "mechanism": "Depolarises the neuromuscular junction as an acetylcholine receptor agonist, resistant to acetylcholinesterase; produces fasciculation then paralysis.",
+    "concentrations": [
+      "50 mg/mL"
+    ],
+    "dilution": "Usually given undiluted IV.",
+    "pharmacokinetics": {
+      "onset": "~30–60 seconds (ED95 ~1 mg/kg; 1 mg/kg gives intubating conditions in ~60 s)",
+      "duration": "~5–10 minutes (metabolism by plasma cholinesterase; prolonged in deficiency)",
+      "metabolism": "Plasma pseudocholinesterase (butyrylcholinesterase)",
+      "excretion": "Renal (metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "RSI / intubation dose",
+        "value": "1–1.5 mg/kg IV (ED95 ~1 mg/kg; 1.5 mg/kg commonly used for rapid sequence induction)"
+      },
+      "pediatric": {
+        "label": "RSI dose",
+        "value": "Commonly higher mg/kg than adults; confirm institutional pediatric protocol"
+      },
+      "emergency": {
+        "label": "RSI / difficult airway",
+        "value": "1.5 mg/kg IV commonly used for rapid sequence induction"
+      },
+      "maximum": {
+        "label": "IM route (no IV access)",
+        "value": "Up to ~4 mg/kg IM (slower onset) — confirm local protocol"
+      }
+    },
+    "contraindications": [
+      "Personal/family history of malignant hyperthermia",
+      "Hyperkalaemia risk states (burns >24h old, denervation injury, prolonged immobility, crush injury, massive trauma)",
+      "Personal/family history of pseudocholinesterase deficiency without safeguards",
+      "Known acute myocardial infarction / serious dysrhythmias (relative — hyperkalaemia/arrhythmia risk)"
+    ],
+    "interactions": [
+      "Prolonged block with anticholinesterases, some chemotherapy agents affecting pseudocholinesterase"
+    ],
+    "sideEffects": [
+      "Fasciculations",
+      "Myalgia",
+      "Hyperkalaemia",
+      "Bradycardia (esp. repeat dosing/children)",
+      "Masseter spasm",
+      "Trigger for malignant hyperthermia in susceptible individuals",
+      "Malignant hyperthermia trigger"
+    ],
+    "overdoseManagement": "Supportive ventilation until block resolves (plasma cholinesterase regenerates); manage hyperkalaemia if it occurs; treat as MH if triggered (see Crisis Management module).",
+    "monitoring": [
+      "Neuromuscular monitoring",
+      "ECG (bradycardia, hyperkalaemic changes)",
+      "Serum potassium if risk factors"
+    ],
+    "ampouleColor": "Convention varies by manufacturer — always read the label",
+    "quickTips": [
+      "Pre-treatment/atropine considered in children and for repeat dosing due to bradycardia risk",
+      "Avoid in uncontrolled hyperkalaemia and rhabdomyolysis-risk states"
+    ],
+    "tags": [
+      "RSI",
+      "emergency",
+      "neuromuscular-blocker",
+      "difficult-airway"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "orange",
+    "rsi": {
+      "label": "RSI paralytic",
+      "value": "1.5 mg/kg IV (ED95 ~1 mg/kg)",
+      "notes": "Intubating conditions in ~60 s; avoid in uncontrolled hyperkalaemia / MH risk."
+    },
+    "pediatricRsi": {
+      "label": "RSI (no IV access)",
+      "value": "4 mg/kg IM",
+      "notes": "Slower onset than IV; use when IV access delayed."
+    },
+    "fluidCompatibility": "Reconstitute with water for injection; do not refrigerate reconstituted solution.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "epinephrine",
+    "genericName": "Epinephrine (Adrenaline)",
+    "brandExamplesIndia": [
+      "Adrenaline injection (various generic manufacturers)"
+    ],
+    "drugClass": "Endogenous catecholamine, non-selective alpha/beta agonist",
+    "mechanism": "Alpha-1 (vasoconstriction), beta-1 (inotropy/chronotropy), beta-2 (bronchodilation) agonism.",
+    "concentrations": [
+      "1 mg/mL (1:1000)",
+      "0.1 mg/mL (1:10,000) — resuscitation dilution"
+    ],
+    "dilution": "1 mg in 10 mL = 1:10,000 (100 mcg/mL) for IV cardiac arrest / anaphylaxis IV titration.",
+    "pharmacokinetics": {
+      "onset": "Immediate (IV)",
+      "duration": "Minutes",
+      "metabolism": "COMT/MAO",
+      "excretion": "Renal (metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Anaphylaxis (IM)",
+        "value": "0.5 mg (0.5 mL of 1:1000) IM, anterolateral thigh, may repeat every 5–15 min"
+      },
+      "pediatric": {
+        "label": "Anaphylaxis (IM)",
+        "value": "0.01 mg/kg IM of 1:1000 (max 0.5 mg per dose) — confirm local protocol"
+      },
+      "emergency": {
+        "label": "Cardiac arrest (ACLS)",
+        "value": "1 mg IV/IO (1:10,000) every 3–5 minutes"
+      },
+      "infusion": {
+        "label": "Push-dose pressor (peri-arrest hypotension)",
+        "value": "Highly protocol-dependent (commonly 5–20 mcg IV boluses of a 10 mcg/mL dilution) — confirm institutional push-dose protocol before use"
+      }
+    },
+    "contraindications": [
+      "None absolute in true anaphylaxis or cardiac arrest"
+    ],
+    "interactions": [
+      "Caution with non-selective beta-blockade (unopposed alpha effect)"
+    ],
+    "sideEffects": [
+      "Tachyarrhythmia",
+      "Hypertension",
+      "Anxiety",
+      "Tremor"
+    ],
+    "monitoring": [
+      "ECG",
+      "Blood pressure",
+      "Repeat clinical assessment"
+    ],
+    "ampouleColor": "Per ISA/AHA crash-cart colour convention — confirm your institution's crash cart labelling",
+    "quickTips": [
+      "Confirm concentration (1:1000 vs 1:10,000) before every draw — a frequent source of 10x dosing error"
+    ],
+    "tags": [
+      "emergency",
+      "ACLS",
+      "anaphylaxis",
+      "push-dose-pressor",
+      "crash-cart"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (ACLS-aligned teaching doses)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "rose",
+    "infusionPrep": "Push-dose: 1 mg in 100 mL NS → 10 mcg/mL; give 5–20 mcg IV boluses. Infusion: 1 mg in 250 mL NS → 4 mcg/mL (titrate).",
+    "fluidCompatibility": "Compatible with NS; absorbed by some plastics — use dedicated line for infusions.",
+    "pregnancyCategory": "safe"
+  },
+  {
+    "id": "atropine",
+    "genericName": "Atropine",
+    "brandExamplesIndia": [
+      "Atropine injection (generic)"
+    ],
+    "drugClass": "Anticholinergic (muscarinic antagonist)",
+    "mechanism": "Competitive antagonism at muscarinic acetylcholine receptors.",
+    "concentrations": [
+      "0.6 mg/mL (commonly available Indian ampoule strength — check label)"
+    ],
+    "pharmacokinetics": {
+      "onset": "Rapid (IV)",
+      "duration": "30–60 minutes for heart-rate effect"
+    },
+    "doses": {
+      "adult": {
+        "label": "Symptomatic bradycardia",
+        "value": "0.5 mg IV every 3–5 min, max 3 mg total (ACLS teaching value)"
+      },
+      "pediatric": {
+        "label": "Bradycardia",
+        "value": "0.02 mg/kg IV (minimum dose conventions vary) — confirm institutional pediatric protocol"
+      },
+      "emergency": {
+        "label": "Organophosphate poisoning",
+        "value": "Doses are much higher and titrated to secretions — specialist/toxicology-guided, not covered by this seed entry"
+      }
+    },
+    "contraindications": [
+      "Caution in tachyarrhythmia",
+      "Caution in narrow-angle glaucoma"
+    ],
+    "sideEffects": [
+      "Tachycardia",
+      "Dry mouth",
+      "Blurred vision",
+      "Urinary retention"
+    ],
+    "monitoring": [
+      "ECG",
+      "Heart rate"
+    ],
+    "tags": [
+      "emergency",
+      "ACLS",
+      "bradycardia",
+      "crash-cart"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Standard ACLS teaching doses)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "fuchsia",
+    "fluidCompatibility": "Compatible with NS; mix with neostigmine for reversal.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "ondansetron",
+    "genericName": "Ondansetron",
+    "brandExamplesIndia": [
+      "Emeset",
+      "Ondem"
+    ],
+    "drugClass": "5-HT3 receptor antagonist (antiemetic)",
+    "mechanism": "Blocks 5-HT3 receptors centrally (chemoreceptor trigger zone) and peripherally (vagal afferents).",
+    "concentrations": [
+      "2 mg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "Minutes (IV)",
+      "halfLife": "~3–5 hours",
+      "metabolism": "Hepatic (CYP)"
+    },
+    "doses": {
+      "adult": {
+        "label": "PONV prophylaxis",
+        "value": "4 mg IV, typically near end of surgery (Miller's: 4 mg IV ~30 min before conclusion of surgery)",
+        "notes": "Part of multimodal PONV prophylaxis (combine with a steroid such as dexamethasone)."
+      },
+      "pediatric": {
+        "label": "PONV prophylaxis",
+        "value": "0.1 mg/kg IV (commonly max 4 mg) — confirm institutional protocol"
+      }
+    },
+    "contraindications": [
+      "Congenital long QT syndrome"
+    ],
+    "interactions": [
+      "Additive QT prolongation with other QT-prolonging drugs"
+    ],
+    "sideEffects": [
+      "Headache",
+      "Constipation",
+      "QT prolongation (dose-related)"
+    ],
+    "monitoring": [
+      "ECG if other QT-prolonging risk factors present"
+    ],
+    "tags": [
+      "antiemetic",
+      "PONV"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 76 Postoperative Nausea and Vomiting; Ch. 21)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "emerald",
+    "infusionPrep": "Infusion (if used): 4 mg in 50 mL NS → 80 mcg/mL; run over 15–30 min.",
+    "fluidCompatibility": "Compatible with NS/RL.",
+    "pregnancyCategory": "safe"
+  },
+  {
+    "id": "lidocaine",
+    "genericName": "Lidocaine (Lignocaine)",
+    "brandExamplesIndia": [
+      "Xylocaine"
+    ],
+    "drugClass": "Amide local anaesthetic / Class Ib antiarrhythmic",
+    "mechanism": "Blocks voltage-gated sodium channels, reducing nerve conduction.",
+    "concentrations": [
+      "0.5%, 1%, 2% ± adrenaline"
+    ],
+    "pharmacokinetics": {
+      "onset": "Fast",
+      "duration": "60–120 min (longer with adrenaline)",
+      "metabolism": "Hepatic"
+    },
+    "doses": {
+      "adult": {
+        "label": "Max dose, plain",
+        "value": "~4.5 mg/kg (commonly quoted ceiling ~300 mg)",
+        "notes": "With epinephrine, plain-tissue ceiling rises toward ~7 mg/kg."
+      },
+      "maximum": {
+        "label": "Max dose, with adrenaline",
+        "value": "~7 mg/kg (commonly quoted ceiling ~500 mg)",
+        "notes": "Reduce in small patients, extremes of age, cardiac/hepatic disease, and when injecting into vascular/High-uptake sites."
+      }
+    },
+    "contraindications": [
+      "Known amide local anaesthetic hypersensitivity"
+    ],
+    "sideEffects": [
+      "Local Anaesthetic Systemic Toxicity (LAST) — see Crisis Management module",
+      "Perioral numbness",
+      "Tinnitus",
+      "Seizure (toxicity)",
+      "Arrhythmia (toxicity)"
+    ],
+    "overdoseManagement": "Follow LAST protocol (airway support, seizure control, IV lipid emulsion) — see Crisis Management module.",
+    "monitoring": [
+      "Signs of CNS/cardiac toxicity during and after injection"
+    ],
+    "tags": [
+      "local-anaesthetic",
+      "LAST",
+      "regional"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 25 Local Anesthetics)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "lime",
+    "infusionPrep": "Infusion: 100 mg in 100 mL NS → 1 mg/mL; run 1–4 mg/kg/h (max ~ max dose).",
+    "fluidCompatibility": "Compatible with NS/RL.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "midazolam",
+    "genericName": "Midazolam",
+    "brandExamplesIndia": [
+      "Mezolam",
+      "Fulsed"
+    ],
+    "drugClass": "Benzodiazepine",
+    "mechanism": "Potentiates GABA-A receptor mediated chloride conductance.",
+    "concentrations": [
+      "1 mg/mL",
+      "5 mg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "1–2 min IV",
+      "halfLife": "~1.5–2.5 hours",
+      "metabolism": "Hepatic CYP3A4"
+    },
+    "doses": {
+      "adult": {
+        "label": "Premedication / sedation",
+        "value": "IV 0.2 mg/kg titrated (or 1–2 mg IV titrated); oral premedication commonly ~0.5 mg/kg",
+        "notes": "Reduce in elderly and with opioid co-induction."
+      },
+      "pediatric": {
+        "label": "Premedication (oral)",
+        "value": "Commonly ~0.5 mg/kg oral (max varies by age/institution) — confirm institutional protocol"
+      },
+      "emergency": {
+        "label": "Status epilepticus / sedation",
+        "value": "Doses vary by route (IV/IM/buccal/intranasal) — see Crisis Management seizure algorithm"
+      }
+    },
+    "contraindications": [
+      "Acute narrow-angle glaucoma",
+      "Severe respiratory insufficiency without ventilatory support"
+    ],
+    "interactions": [
+      "Synergistic sedation/respiratory depression with opioids"
+    ],
+    "sideEffects": [
+      "Respiratory depression",
+      "Hypotension",
+      "Paradoxical agitation (esp. children/elderly)"
+    ],
+    "overdoseManagement": "Flumazenil may be considered in select monitored settings; airway/ventilatory support is primary.",
+    "monitoring": [
+      "SpO2",
+      "Level of consciousness",
+      "Respiratory rate"
+    ],
+    "tags": [
+      "sedation",
+      "premedication",
+      "benzodiazepine"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 21 Intravenous Anesthetics; Box 21.2)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "sky",
+    "infusionPrep": "Sedation/infusion: 5 mg in 50 mL NS → 100 mcg/mL; titrate 0.5–2 mg/h.",
+    "fluidCompatibility": "Compatible with NS/RL; compatible with opioids/fentanyl in same line.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "rocuronium",
+    "genericName": "Rocuronium",
+    "brandExamplesIndia": [
+      "Rocuron",
+      "Rocun (various generic manufacturers)"
+    ],
+    "drugClass": "Aminosteroidal non-depolarising neuromuscular blocker (intermediate-acting)",
+    "mechanism": "Competitive antagonist at the nicotinic acetylcholine receptor at the neuromuscular junction.",
+    "concentrations": [
+      "10 mg/mL (commonly available)",
+      "Other concentrations per manufacturer"
+    ],
+    "pharmacokinetics": {
+      "onset": "ED95 ~0.3 mg/kg; 0.6 mg/kg (2×ED95) gives intubating conditions in ~1–2 min; 0.9–1.2 mg/kg faster (approaching suxamethonium speed)",
+      "duration": "0.6 mg/kg: clinical duration ~30–40 min; prolonged with higher doses",
+      "metabolism": "Hepatic (biliary) and renal excretion; no active metabolites",
+      "excretion": "Biliary (~two-thirds) and urinary"
+    },
+    "doses": {
+      "adult": {
+        "label": "Intubating dose",
+        "value": "0.6 mg/kg IV (2×ED95) for rapid intubation; 0.9–1.2 mg/kg IV for faster onset (RSI-style)"
+      },
+      "infusion": {
+        "label": "Maintenance",
+        "value": "0.075–0.6 mg/kg/h infusion, titrated to twitch response"
+      },
+      "obese": {
+        "label": "Dosing weight",
+        "value": "Dose on ideal/lean body weight (volume of distribution scales with TBW; prolonged duration if dosed to TBW)"
+      },
+      "maximum": {
+        "label": "High-dose RSI",
+        "value": "Up to 1.2 mg/kg IV for fastest onset; reversal with sugammadex preferred"
+      }
+    },
+    "contraindications": [
+      "Known allergy to aminosteroidal NMBDs",
+      "Personal/family history of malignant hyperthermia (relative — rocuronium itself is not a trigger but context matters)"
+    ],
+    "interactions": [
+      "Potentiated by volatile agents, aminoglycosides, magnesium; reversed by sugammadex or neostigmine+anticholinergic"
+    ],
+    "sideEffects": [
+      "Histamine release (minimal)",
+      "Transient pain on injection",
+      "Residual neuromuscular block if under-reversed"
+    ],
+    "overdoseManagement": "Ventilate and reverse: sugammadex for deep/moderate block, or neostigmine + glycopyrrolate/atropine once spontaneous recovery evident. Confirm with neuromuscular monitoring.",
+    "monitoring": [
+      "Quantitative neuromuscular monitoring (TOF/train-of-four) before extubation"
+    ],
+    "tags": [
+      "neuromuscular-blocker",
+      "RSI",
+      "intubation",
+      "TIVA"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "amber",
+    "rsi": {
+      "label": "RSI paralytic",
+      "value": "1.2 mg/kg IV (0.6–1.0 mg/kg for non-emergency)",
+      "notes": "Intubating conditions in ~60 s; reverse deep block with sugammadex 16 mg/kg."
+    },
+    "infusionPrep": "Maintenance infusion: 50 mg in 50 mL NS → 1 mg/mL; run 0.075–0.6 mg/kg/h.",
+    "fluidCompatibility": "Compatible with NS/RL; compatible with common perioperative drugs.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "vecuronium",
+    "genericName": "Vecuronium",
+    "brandExamplesIndia": [
+      "Vecuronium injection (various generic manufacturers)"
+    ],
+    "drugClass": "Aminosteroidal non-depolarising neuromuscular blocker (intermediate-acting)",
+    "mechanism": "Competitive antagonist at the nicotinic acetylcholine receptor at the neuromuscular junction.",
+    "concentrations": [
+      "1 mg/vial (reconstituted; 0.1 mg/mL working solution common)",
+      "Other concentrations per manufacturer"
+    ],
+    "pharmacokinetics": {
+      "onset": "ED95 ~0.05 mg/kg; 0.07–0.1 mg/kg gives intubating conditions in ~2–4 min",
+      "duration": "0.1 mg/kg: clinical duration ~25–40 min; prolonged in renal/hepatic impairment",
+      "metabolism": "Hepatic (active metabolite 3-desacetylvecuronium) and renal",
+      "excretion": "Biliary and renal"
+    },
+    "doses": {
+      "adult": {
+        "label": "Intubating dose",
+        "value": "0.08–0.1 mg/kg IV (0.1 mg/kg for slightly faster onset; 0.28 mg/kg for rapid sequence if needed)"
+      },
+      "infusion": {
+        "label": "Maintenance",
+        "value": "1–2 mcg/kg/min infusion, titrated to twitch response"
+      },
+      "renalAdjustment": {
+        "label": "Renal failure",
+        "value": "Duration prolonged; 0.05–0.14 mg/kg may be unaffected but larger/repeated doses accumulate (active metabolite)"
+      },
+      "maximum": {
+        "label": "RSI-equivalent",
+        "value": "Up to ~0.28 mg/kg IV (4×ED95) for faster onset"
+      }
+    },
+    "contraindications": [
+      "Known allergy to aminosteroidal NMBDs"
+    ],
+    "interactions": [
+      "Potentiated by volatile agents, antibiotics (aminoglycosides), magnesium; reversed by neostigmine+anticholinergic or sugammadex"
+    ],
+    "sideEffects": [
+      "Minimal histamine release/cardiovascular effects",
+      "Residual neuromuscular block if under-reversed"
+    ],
+    "overdoseManagement": "Ventilate and reverse with neostigmine + glycopyrrolate/atropine (or sugammadex); confirm with neuromuscular monitoring.",
+    "monitoring": [
+      "Quantitative neuromuscular monitoring before extubation"
+    ],
+    "tags": [
+      "neuromuscular-blocker",
+      "intubation",
+      "TIVA"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "amber",
+    "rsi": {
+      "label": "RSI paralytic (high-dose)",
+      "value": "0.28 mg/kg IV (4×ED95)",
+      "notes": "Slower onset than rocuronium/sux; reverse with neostigmine or sugammadex."
+    },
+    "infusionPrep": "Maintenance infusion: 10 mg in 100 mL NS → 0.1 mg/mL; run 1–2 mcg/kg/min.",
+    "fluidCompatibility": "Compatible with NS/RL.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "sugammadex",
+    "genericName": "Sugammadex",
+    "brandExamplesIndia": [
+      "Sugammadex injection (various generic manufacturers)"
+    ],
+    "drugClass": "Selective relaxant binding agent (cyclodextrin) — reverses steroidal NMBDs",
+    "mechanism": "Encapsulates rocuronium/vecuronium in plasma, lowering free concentration and terminating block.",
+    "concentrations": [
+      "100 mg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "Reversal of deep rocuronium block achievable within ~3 min at 16 mg/kg",
+      "metabolism": "Not metabolised",
+      "excretion": "Renal"
+    },
+    "doses": {
+      "adult": {
+        "label": "Reversal of deep block (2–4 PTCs)",
+        "value": "16 mg/kg IV for reversal of deep rocuronium-induced block"
+      },
+      "emergency": {
+        "label": "Reversal of moderate block (2 twitches)",
+        "value": "4 mg/kg IV",
+        "notes": "2 mg/kg commonly used for routine reversal at reappearance of 2 twitches."
+      },
+      "maximum": {
+        "label": "Repeat dosing",
+        "value": "Repeat 16 mg/kg if needed; total doses guided by recurrence of block"
+      }
+    },
+    "contraindications": [
+      "Hypersensitivity to sugammadex",
+      "Use only to reverse aminosteroidal NMBDs (rocuronium/vecuronium)"
+    ],
+    "interactions": [
+      "Binds rocuronium/vecuronium specifically; not effective for benzylisoquinolines (atracurium/cisatracurium)"
+    ],
+    "sideEffects": [
+      "Bradycardia/arrhythmia (rare)",
+      "Hypersensitivity/anaphylaxis (rare)",
+      "Possible masking of oral contraceptive effect briefly"
+    ],
+    "overdoseManagement": "No specific antidote; support airway/ventilation and monitor. Re-dose rocuronium if re-paralysis indicated.",
+    "monitoring": [
+      "Neuromuscular function after reversal",
+      "ECG if arrhythmia"
+    ],
+    "tags": [
+      "reversal",
+      "neuromuscular-blocker",
+      "rocuronium",
+      "vecuronium"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "emerald",
+    "fluidCompatibility": "Reconstitute/dilute per label; do not mix with other drugs in same line.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "neostigmine",
+    "genericName": "Neostigmine",
+    "brandExamplesIndia": [
+      "Neostigmine injection (various generic manufacturers)"
+    ],
+    "drugClass": "Acetylcholinesterase inhibitor (anticholinesterase) — NMB reversal",
+    "mechanism": "Reversibly inhibits acetylcholinesterase, increasing acetylcholine at the neuromuscular junction to overcome non-depolarising block.",
+    "concentrations": [
+      "1 mg/mL (0.5 mg/0.5 mL ampoule common)",
+      "2.5 mg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "Onset of reversal ~5–10 min; peak effect ~15–30 min",
+      "metabolism": "Renal (unchanged and metabolites)",
+      "exclusion": "Renal failure prolongs action"
+    },
+    "doses": {
+      "adult": {
+        "label": "Reversal of non-depolarising block",
+        "value": "0.04–0.07 mg/kg IV (commonly 0.043 mg/kg or 2.5–5 mg total) with an anticholinergic",
+        "notes": "Always co-administer glycopyrrolate/atropine to blunt muscarinic effects."
+      },
+      "maximum": {
+        "label": "With glycopyrrolate",
+        "value": "Commonly 0.5 mg glycopyrrolate with 2–2.5 mg neostigmine (adult); avoid excessive doses (no benefit, more side effects)"
+      }
+    },
+    "contraindications": [
+      "Mechanical intestinal/urinary obstruction",
+      "Recent bowel anastomosis (relative)",
+      "Asthma/COPD (relative)",
+      "Peritonitis"
+    ],
+    "interactions": [
+      "Synergistic bradycardia with beta-blockers; always pair with anticholinergic"
+    ],
+    "sideEffects": [
+      "Bradycardia",
+      "Salivation",
+      "Bronchospasm",
+      "Nausea",
+      "Muscle weakness if under-dosed"
+    ],
+    "overdoseManagement": "Support ventilation; atropine/glycopyrrolate for muscarinic excess; consider quantitative monitoring for residual block.",
+    "monitoring": [
+      "Neuromuscular function (TOF ratio ≥0.9 before extubation)",
+      "Heart rate"
+    ],
+    "tags": [
+      "reversal",
+      "neuromuscular-blocker",
+      "anticholinesterase"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "fuchsia",
+    "fluidCompatibility": "Compatible with NS; always co-give glycopyrrolate/atropine in same line.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "glycopyrrolate",
+    "genericName": "Glycopyrrolate",
+    "brandExamplesIndia": [
+      "Glycopyrrolate injection (various generic manufacturers)"
+    ],
+    "drugClass": "Anticholinergic (quaternary ammonium muscarinic antagonist)",
+    "mechanism": "Competitive muscarinic antagonism; does not cross the blood–brain barrier (less CNS effect than atropine).",
+    "concentrations": [
+      "0.2 mg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "Slower than atropine (~2–3 min IV)",
+      "duration": "Longer than atropine (~4–6 h"
+    },
+    "doses": {
+      "adult": {
+        "label": "With neostigmine (reversal)",
+        "value": "0.2–0.4 mg IV paired with neostigmine (commonly 0.5 mg glycopyrrolate with 2–2.5 mg neostigmine)",
+        "notes": "Used to prevent muscarinic effects of neostigmine."
+      },
+      "emergency": {
+        "label": "Bradycardia",
+        "value": "0.2–0.4 mg IV (alternative to atropine)"
+      }
+    },
+    "contraindications": [
+      "Narrow-angle glaucoma (relative)",
+      "Myasthenia gravis (relative)",
+      "Tachyarrhythmia"
+    ],
+    "interactions": [
+      "Paired with neostigmine for reversal; less CNS penetration than atropine"
+    ],
+    "sideEffects": [
+      "Dry mouth",
+      "Tachycardia",
+      "Urinary retention",
+      "Blurred vision"
+    ],
+    "monitoring": [
+      "Heart rate"
+    ],
+    "tags": [
+      "anticholinergic",
+      "reversal",
+      "bradycardia"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 24 Pharmacology of Neuromuscular Blocking Drugs and Antagonists)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "fuchsia",
+    "fluidCompatibility": "Compatible with NS; mix with neostigmine for reversal.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "fentanyl",
+    "genericName": "Fentanyl",
+    "brandExamplesIndia": [
+      "Fentanyl injection (various generic manufacturers)"
+    ],
+    "drugClass": "Synthetic phenylpiperidine opioid (µ-receptor agonist)",
+    "mechanism": "Agonist at µ-opioid receptors — analgesia, sedation, respiratory depression, MAC reduction.",
+    "concentrations": [
+      "50 mcg/mL",
+      "100 mcg/mL"
+    ],
+    "pharmacokinetics": {
+      "onset": "IV onset ~1–2 min; peak effect ~3–5 min",
+      "duration": "~30–60 min (single bolus; longer with infusion)",
+      "metabolism": "Hepatic (CYP3A4)",
+      "excretion": "Renal (metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Induction / analgesia bolus",
+        "value": "1–2 mcg/kg IV (induction adjunct); titrate to effect",
+        "notes": "Dose requirements fall with age."
+      },
+      "infusion": {
+        "label": "Perioperative infusion",
+        "value": "0.5–3 mcg/kg/h (≈0.005–0.03 mcg/kg/min) as part of balanced anaesthesia; higher for opioid-based techniques",
+        "notes": "Often combined with propofol or volatile agent."
+      },
+      "maximum": {
+        "label": "High-dose techniques",
+        "value": "Cardiac/opioid-based anaesthesia may use 50–100 mcg/kg total — institutional protocol only"
+      }
+    },
+    "contraindications": [
+      "Known opioid hypersensitivity",
+      "MAOI use (relative)"
+    ],
+    "interactions": [
+      "Synergistic respiratory depression with benzodiazepines, propofol, other CNS depressants",
+      "CYP3A4 inhibitors/inducers alter levels"
+    ],
+    "sideEffects": [
+      "Respiratory depression",
+      "Bradycardia",
+      "Rigidity (chest wall, high dose)",
+      "Nausea/vomiting",
+      "Pruritus",
+      "Hypotension"
+    ],
+    "overdoseManagement": "Support airway/ventilation; naloxone titrated IV (watch for pain recurrence and acute withdrawal).",
+    "monitoring": [
+      "SpO2",
+      "Respiratory rate",
+      "Level of consciousness",
+      "ECG (bradycardia)"
+    ],
+    "tags": [
+      "opioid",
+      "analgesia",
+      "TIVA",
+      "sedation"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 22 Opioids)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "rose",
+    "rsi": {
+      "label": "RSI adjunct",
+      "value": "1–2 mcg/kg IV with induction",
+      "notes": "For intubating conditions / blunting response."
+    },
+    "infusionPrep": "Infusion: 500 mcg in 100 mL NS → 5 mcg/mL (or 250 mcg in 50 mL → 5 mcg/mL); run 0.5–3 mcg/kg/h.",
+    "fluidCompatibility": "Compatible with NS/RL; mixes with midazolam/propofol lines.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "remifentanil",
+    "genericName": "Remifentanil",
+    "brandExamplesIndia": [
+      "Remifentanil injection (various generic manufacturers)"
+    ],
+    "drugClass": "Synthetic phenylpiperidine opioid (µ-agonist); ester-metabolised, ultra-short acting",
+    "mechanism": "Potent µ-opioid receptor agonist; rapidly hydrolysed by non-specific plasma/tissue esterases.",
+    "concentrations": [
+      "Reconstituted infusion (e.g. 1–5 mg/vial per manufacturer)"
+    ],
+    "pharmacokinetics": {
+      "onset": "IV onset ~1 min; peak ~2–4 min",
+      "duration": "Very short — context-sensitive half-time ~3–6 min regardless of infusion duration",
+      "metabolism": "Plasma/tissue esterases (not CYP-dependent)",
+      "excretion": "Renal (inactive metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Induction bolus",
+        "value": "1–2 mcg/kg IV for intubation conditions (4 mcg/kg for rapid intubating conditions)",
+        "notes": "Bolus causes transient chest-wall rigidity/apnoea."
+      },
+      "infusion": {
+        "label": "Maintenance",
+        "value": "0.05–0.3 mcg/kg/min infusion (analgesia 0.025–0.1; surgical 0.1–0.3), titrated to stimulus",
+        "notes": "Effect dissipates minutes after stopping — plan postoperative analgesia early."
+      },
+      "maximum": {
+        "label": "Upper infusion range",
+        "value": "Up to ~1–2 mcg/kg/min in select infused techniques; avoid >1 mcg/kg/min without support"
+      }
+    },
+    "contraindications": [
+      "Known opioid hypersensitivity"
+    ],
+    "interactions": [
+      "Profound synergism with propofol/benzodiazepines (resp. depression, hypotension)",
+      "Not reversed by naloxone beyond standard — effect ends with metabolism"
+    ],
+    "sideEffects": [
+      "Respiratory depression/apnoea",
+      "Chest-wall rigidity (bolus)",
+      "Bradycardia",
+      "Hypotension",
+      "Nausea/vomiting",
+      "Opioid-induced hyperalgesia (prolonged high-dose)"
+    ],
+    "overdoseManagement": "Stop infusion; support airway/ventilation (effect ends within minutes due to esterase metabolism). Naloxone if needed.",
+    "monitoring": [
+      "SpO2",
+      "Respiratory rate",
+      "ECG",
+      "Depth of anaesthesia"
+    ],
+    "tags": [
+      "opioid",
+      "TIVA",
+      "analgesia",
+      "ultra-short"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 22 Opioids)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "rose",
+    "rsi": {
+      "label": "RSI induction",
+      "value": "1–2 mcg/kg IV (4 mcg/kg for rapid intubating conditions)",
+      "notes": "Bolus causes transient apnoea/rigidity."
+    },
+    "infusionPrep": "Infusion: 2 mg in 50 mL NS → 40 mcg/mL; run 0.05–0.3 mcg/kg/min. Effect ends minutes after stop.",
+    "fluidCompatibility": "Compatible with NS/RL; mix ONLY with water for injection or specific diluents per label.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "ketamine",
+    "genericName": "Ketamine",
+    "brandExamplesIndia": [
+      "Ketamine injection (various generic manufacturers)",
+      "Ketalar"
+    ],
+    "drugClass": "Phencyclidine derivative — NMDA-receptor antagonist (dissociative anaesthetic)",
+    "mechanism": "Antagonism of excitatory glutamatergic NMDA receptors; also some opioid-receptor activity (S-enantiomer).",
+    "concentrations": [
+      "10 mg/mL (50 mg/mL also available)"
+    ],
+    "pharmacokinetics": {
+      "onset": "IV 30–60 seconds; IM ~3–5 min",
+      "peak": "~1 min (IV)",
+      "duration": "After 2 mg/kg IV: anaesthesia 10–15 min; full orientation 15–30 min",
+      "metabolism": "Hepatic (N-demethylation to norketamine)",
+      "excretion": "Renal"
+    },
+    "doses": {
+      "adult": {
+        "label": "IV induction",
+        "value": "1–2 mg/kg IV (2 mg/kg gives ~10–15 min anaesthesia)",
+        "notes": "Children may require slightly higher plasma levels (0.8–4 mcg/mL). IM 4–6 mg/kg alternative."
+      },
+      "infusion": {
+        "label": "Analgesia / sedation infusion",
+        "value": "0.1–0.5 mg/kg/h IV (subanaesthetic) for analgesia/sedation"
+      },
+      "maximum": {
+        "label": "Analgesic bolus",
+        "value": "0.1–0.5 mg/kg IV boluses for breakthrough analgesia"
+      }
+    },
+    "pregnancy": "Used in pregnancy (e.g. trauma/RSI) when indicated; crosses placenta.",
+    "contraindications": [
+      "Increased intracranial pressure without ventilation control (raises CMRO2/CBF/ICP)",
+      "Severe cardiac disease (relative)",
+      "Thyroid toxicity/some psychosis histories (relative)"
+    ],
+    "interactions": [
+      "Potentiates CNS depression with other anaesthetics; blunts opioid-induced chest-wall rigidity when combined"
+    ],
+    "sideEffects": [
+      "Hypertension/tachycardia",
+      "Emergence reactions (vivid dreams, hallucinations)",
+      "Increased salivation/lacrimation",
+      "Nystagmus",
+      "Laryngeal/pharyngeal reflexes partly preserved",
+      "Raised ICP/CMRO2"
+    ],
+    "overdoseManagement": "Supportive airway/ventilation; benzodiazepines for emergence reactions/agitation; no specific antagonist.",
+    "monitoring": [
+      "Blood pressure",
+      "Heart rate",
+      "SpO2",
+      "Level of consciousness"
+    ],
+    "tags": [
+      "induction",
+      "analgesia",
+      "sedation",
+      "RSI",
+      "dissociative"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 21 Intravenous Anesthetics)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "violet",
+    "rsi": {
+      "label": "RSI induction (hemodynamically unstable)",
+      "value": "2 mg/kg IV (or 4–6 mg/kg IM)",
+      "notes": "Preferred when hypotension/shock is a concern."
+    },
+    "infusionPrep": "Analgesia/sedation: 100–500 mg in 100 mL NS → 1–5 mg/mL; run 0.1–0.5 mg/kg/h.",
+    "fluidCompatibility": "Compatible with NS/RL; stable in infusion.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "dexmedetomidine",
+    "genericName": "Dexmedetomidine",
+    "brandExamplesIndia": [
+      "Dexmedetomidine injection (various generic manufacturers)",
+      "Dezac"
+    ],
+    "drugClass": "Selective α2-adrenergic agonist (sedative/analgesic-sparing)",
+    "mechanism": "Centrally acting α2-adrenoceptor agonist — sedation, anxiolysis, sympatholysis, minimal respiratory depression.",
+    "concentrations": [
+      "100 mcg/mL (diluted for infusion)"
+    ],
+    "pharmacokinetics": {
+      "onset": "Sedation within ~15 min of loading infusion",
+      "duration": "Half-life ~2 h; sedative effect subsides ~1 h after stopping",
+      "metabolism": "Hepatic (extensive)",
+      "excretion": "Renal (metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Loading infusion",
+        "value": "1 mcg/kg over 10 min (may reduce to 0.5 mcg/kg in adults/elderly or cardiac disease)",
+        "notes": "Avoid rapid bolus — bradycardia/hypotension."
+      },
+      "infusion": {
+        "label": "Maintenance sedation",
+        "value": "0.2–0.7 mcg/kg/h IV infusion, titrated",
+        "notes": "Approved for ICU sedation of initially intubated/mechanically ventilated adults; avoids significant respiratory depression."
+      },
+      "maximum": {
+        "label": "Upper maintenance",
+        "value": "Commonly not超过 ~0.7–1.4 mcg/kg/h; titrate to sedation goal"
+      }
+    },
+    "contraindications": [
+      "Advanced heart block (without pacemaker)",
+      "Severe bradycardia",
+      "Hypotension"
+    ],
+    "interactions": [
+      "Additive bradycardia/hypotension with other sedatives, opioids, β-blockers, calcium-channel blockers"
+    ],
+    "sideEffects": [
+      "Bradycardia",
+      "Hypotension",
+      "Dry mouth",
+      "Transient hypertension (loading)"
+    ],
+    "overdoseManagement": "Stop infusion; support airway, fluids, atropine for bradycardia; haemodynamic support.",
+    "monitoring": [
+      "Heart rate",
+      "Blood pressure",
+      "Level of consciousness",
+      "SpO2"
+    ],
+    "tags": [
+      "sedation",
+      "ICU",
+      "α2-agonist",
+      "analgesic-sparing"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 21 Intravenous Anesthetics; ICU sedation)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "cyan",
+    "infusionPrep": "Sedation: 200 mcg in 50 mL NS → 4 mcg/mL; load 1 mcg/kg over 10 min, then 0.2–0.7 mcg/kg/h.",
+    "fluidCompatibility": "Compatible with NS/RL; do not mix with blood products.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "etomidate",
+    "genericName": "Etomidate",
+    "brandExamplesIndia": [
+      "Etomidate injection (various generic manufacturers)"
+    ],
+    "drugClass": "Carboxylated imidazole — IV anaesthetic (GABA-A agonist)",
+    "mechanism": "Enhances GABA-A receptor-mediated chloride conductance; haemodynamically stable induction.",
+    "concentrations": [
+      "2 mg/mL (0.2% solution)"
+    ],
+    "pharmacokinetics": {
+      "onset": "~30–60 seconds",
+      "duration": "~3–12 min (single bolus)",
+      "metabolism": "Hepatic (ester hydrolysis) and plasma",
+      "excretion": "Renal (inactive metabolites)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Induction",
+        "value": "0.2–0.6 mg/kg IV (typically 0.3 mg/kg)",
+        "notes": "Reduce in elderly/sick patients; preferred when haemodynamic stability is critical (e.g. sepsis, cardiac)."
+      },
+      "maximum": {
+        "label": "Adjunct",
+        "value": "0.1 mg/kg for focal seizures/ECT or brief procedural sedation"
+      }
+    },
+    "contraindications": [
+      "Known hypersensitivity",
+      "Porphyria (relative)"
+    ],
+    "interactions": [
+      "Synergistic CNS depression with opioids/benzodiazepines"
+    ],
+    "sideEffects": [
+      "Pain on injection",
+      "Myoclonus",
+      "Adrenal cortical suppression (with repeated/infusion doses)",
+      "Nausea/vomiting",
+      "Venous thrombosis (rare)"
+    ],
+    "overdoseManagement": "Supportive airway/ventilation; no specific antagonist.",
+    "monitoring": [
+      "Blood pressure",
+      "SpO2",
+      "Level of consciousness",
+      "Cortisol if prolonged/infusion use"
+    ],
+    "tags": [
+      "induction",
+      "haemodynamic-stable",
+      "sedation"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 21 Intravenous Anesthetics)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "teal",
+    "rsi": {
+      "label": "RSI induction (hemodynamically unstable)",
+      "value": "0.3 mg/kg IV",
+      "notes": "Preferred when haemodynamic stability is critical (e.g. sepsis, cardiac)."
+    },
+    "infusionPrep": "Sedation: 20 mg in 20 mL NS → 1 mg/mL; titrate to effect.",
+    "fluidCompatibility": "Compatible with NS/RL.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "sevoflurane",
+    "genericName": "Sevoflurane",
+    "brandExamplesIndia": [
+      "Sevoflurane (various generic manufacturers)",
+      "Sevo",
+      "Sojourn"
+    ],
+    "drugClass": "Inhalational volatile anaesthetic (fluorinated methyl isopropyl ether)",
+    "mechanism": "Potentiates GABA-A and inhibits NMDA receptor function; produces dose-dependent unconsciousness/immobility.",
+    "concentrations": [
+      "Liquid for vapourisation (vaporiser-set %; MAC in adults ~1.8–2.0% at 1 atm, age-dependent)"
+    ],
+    "pharmacokinetics": {
+      "onset": "Rapid uptake (low blood:gas solubility ~0.45); induction/maintenance fast",
+      "duration": "Rapid emergence (low solubility)",
+      "metabolism": "Hepatic (minor; ~2–5% — compound A formation with CO2 absorbents)",
+      "excretion": "Pulmonary (mostly unchanged)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Maintenance",
+        "value": "0.5–3% inspired (≈0.6–1.5 MAC) titrated to age, comorbidities, co-agents",
+        "notes": "MAC reduced by ~40% in infants <6 mo; increased in young children; reduced with opioids/benzodiazepines."
+      },
+      "pediatric": {
+        "label": "Induction (mask)",
+        "value": "Up to 8% sevoflurane in O2/N2O for inhalational induction in children"
+      }
+    },
+    "contraindications": [
+      "Known malignant hyperthermia susceptibility (trigger)",
+      "Porphyria (relative)",
+      "Avoid in renal impairment with compound-A concern (low-flow debate)"
+    ],
+    "interactions": [
+      "Potentiates all CNS depressants; MAC reduced by opioids/benzodiazepines",
+      "Compound A with desiccated CO2 absorbents — use fresh gas flow ≥2 L/min for low-flow"
+    ],
+    "sideEffects": [
+      "Respiratory depression",
+      "Hypotension",
+      "Bradycardia (pediatric)",
+      "Delirium/emergence agitation (children)",
+      "Malignant hyperthermia trigger"
+    ],
+    "overdoseManagement": "Reduce/increase fresh-gas oxygen, discontinue volatile, support ventilation/circulation; treat MH if triggered.",
+    "monitoring": [
+      "End-tidal agent",
+      "SpO2",
+      "ECG",
+      "Blood pressure",
+      "ETCO2",
+      "Temperature (MH vigilance)"
+    ],
+    "tags": [
+      "volatile",
+      "inhalation",
+      "induction",
+      "maintenance",
+      "pediatric"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 18 Inhaled Anesthetic Uptake, Distribution, Metabolism, and Toxicity; Table 18.1)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "indigo",
+    "fluidCompatibility": "Volatile agent — vapourised, not an IV infusion.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "isoflurane",
+    "genericName": "Isoflurane",
+    "brandExamplesIndia": [
+      "Isoflurane (various generic manufacturers)",
+      "Forane"
+    ],
+    "drugClass": "Inhalational volatile anaesthetic (fluorinated ether)",
+    "mechanism": "Potentiates GABA-A and inhibits NMDA receptor function; dose-dependent unconsciousness/immobility.",
+    "concentrations": [
+      "Liquid for vapourisation (vaporiser-set %; MAC in adults ~1.15–1.4% at 1 atm, age-dependent; blood:gas partition coefficient ~1.4)"
+    ],
+    "pharmacokinetics": {
+      "onset": "Moderate uptake (blood:gas ~1.4)",
+      "duration": "Intermediate emergence",
+      "metabolism": "Hepatic (minimal, <1%)",
+      "excretion": "Pulmonary (mostly unchanged)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Maintenance",
+        "value": "0.5–2% inspired (≈0.6–1.5 MAC) titrated to age, comorbidities, co-agents",
+        "notes": "MAC reduced with opioids/benzodiazepines and with advancing age; elderly MAC ~1.2–1.3%."
+      }
+    },
+    "contraindications": [
+      "Known malignant hyperthermia susceptibility (trigger)",
+      "Porphyria (relative)"
+    ],
+    "interactions": [
+      "Potentiates all CNS depressants; MAC reduced by opioids/benzodiazepines"
+    ],
+    "sideEffects": [
+      "Dose-dependent hypotension (vasodilatation)",
+      "Respiratory depression",
+      "Malignant hyperthermia trigger",
+      "Coronary steal (historical concern at very light levels)"
+    ],
+    "overdoseManagement": "Reduce/discontinue volatile, support ventilation/circulation; treat MH if triggered.",
+    "monitoring": [
+      "End-tidal agent",
+      "SpO2",
+      "ECG",
+      "Blood pressure",
+      "ETCO2",
+      "Temperature (MH vigilance)"
+    ],
+    "tags": [
+      "volatile",
+      "inhalation",
+      "maintenance"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 18 Inhaled Anesthetic Uptake, Distribution, Metabolism, and Toxicity; Table 18.1)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "indigo",
+    "fluidCompatibility": "Volatile agent — vapourised, not an IV infusion.",
+    "pregnancyCategory": "caution"
+  },
+  {
+    "id": "desflurane",
+    "genericName": "Desflurane",
+    "brandExamplesIndia": [
+      "Desflurane (various generic manufacturers)",
+      "Suprane"
+    ],
+    "drugClass": "Inhalational volatile anaesthetic (fluorinated methyl ethyl ether)",
+    "mechanism": "Potentiates GABA-A and inhibits NMDA receptor function; dose-dependent unconsciousness/immobility.",
+    "concentrations": [
+      "Liquid for vapourisation (requires Tec 6/DED vaporiser; MAC in adults ~6–7% at 1 atm, age-dependent; lowest blood:gas solubility)"
+    ],
+    "pharmacokinetics": {
+      "onset": "Very rapid uptake and wash-in/wash-out (lowest blood:gas solubility)",
+      "duration": "Very rapid emergence",
+      "metabolism": "Hepatic (minimal, <0.02%)",
+      "excretion": "Pulmonary (mostly unchanged)"
+    },
+    "doses": {
+      "adult": {
+        "label": "Maintenance",
+        "value": "3–10% inspired (≈0.6–1.5 MAC) titrated to age, comorbidities, co-agents",
+        "notes": "MAC reduced with opioids/benzodiazepines; pungent — poor for inhalational induction in awake adults."
+      }
+    },
+    "contraindications": [
+      "Known malignant hyperthermia susceptibility (trigger)",
+      "Porphyria (relative)",
+      "Airway irritability/pungency limits mask induction"
+    ],
+    "interactions": [
+      "Potentiates all CNS depressants; MAC reduced by opioids/benzodiazepines"
+    ],
+    "sideEffects": [
+      "Airway irritation/cough (pungent)",
+      "Dose-dependent hypotension",
+      "Sympathetic surge with abrupt high concentration",
+      "Malignant hyperthermia trigger"
+    ],
+    "overdoseManagement": "Reduce/discontinue volatile, support ventilation/circulation; treat MH if triggered.",
+    "monitoring": [
+      "End-tidal agent",
+      "SpO2",
+      "ECG",
+      "Blood pressure",
+      "ETCO2",
+      "Temperature (MH vigilance)"
+    ],
+    "tags": [
+      "volatile",
+      "inhalation",
+      "maintenance",
+      "rapid-emergence"
+    ],
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 18 Inhaled Anesthetic Uptake, Distribution, Metabolism, and Toxicity; Table 18.1)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review",
+    "classColor": "indigo",
+    "fluidCompatibility": "Volatile agent — vapourised, not an IV infusion (requires Tec 6/DED vaporiser).",
+    "pregnancyCategory": "caution"
+  }
+]

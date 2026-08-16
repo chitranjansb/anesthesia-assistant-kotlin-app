@@ -1,0 +1,309 @@
+[
+  {
+    "id": "preop-fasting",
+    "title": "Preoperative Fasting",
+    "category": "Pre-operative",
+    "summary": "Standard adult teaching follows a '2-4-6-8' style rule: clear fluids up to 2h before, breast milk up to 4h, light meal/infant formula up to 6h, and a full/fatty meal up to 8h before elective anaesthesia.",
+    "sections": [
+      {
+        "heading": "Why it matters",
+        "body": "Fasting guidance aims to reduce gastric volume and aspiration risk while avoiding unnecessarily prolonged starvation, especially in children and diabetics."
+      },
+      {
+        "heading": "General teaching thresholds",
+        "body": "Clear fluids: commonly allowed up to 2 hours pre-op. Breast milk: commonly 4 hours. Infant formula/light meal: commonly 6 hours. Fried/fatty food or meat: commonly 8 hours. Exact thresholds and exceptions (e.g. delayed gastric emptying, pregnancy, emergency surgery) vary by society and must be confirmed against your institution's adopted guideline."
+      }
+    ],
+    "flowchartDescription": "Decision point: elective vs emergency → if elective, apply fasting thresholds by intake type → if any doubt (reflux, diabetes, pregnancy, delayed emptying), individualize and discuss with the consultant.",
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught perioperative fasting thresholds (textbook-level)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "who-checklist-context",
+    "title": "WHO Surgical Safety Checklist — Purpose & Structure",
+    "category": "Perioperative safety",
+    "summary": "A three-phase structured team checklist (Sign In before induction, Time Out before incision, Sign Out before the patient leaves theatre) intended to reduce avoidable perioperative harm.",
+    "sections": [
+      {
+        "heading": "Sign In",
+        "body": "Confirms patient identity, procedure and consent, marked surgical site, anaesthesia safety check, pulse oximeter function, and known allergy/airway/aspiration/blood-loss risk before induction."
+      },
+      {
+        "heading": "Time Out",
+        "body": "The whole team pauses just before incision to confirm names/roles, the planned procedure and site, antibiotic prophylaxis timing, anticipated critical events, and imaging availability."
+      },
+      {
+        "heading": "Sign Out",
+        "body": "Before the patient leaves the room: instrument/sponge/needle counts, specimen labelling, equipment problems, and key recovery concerns are confirmed with the team."
+      }
+    ],
+    "flowchartDescription": "Sign In (before induction) → Time Out (before incision) → Sign Out (before leaving OT), each led verbally by a designated checklist coordinator.",
+    "source": {
+      "organization": "World Health Organization",
+      "title": "WHO Surgical Safety Checklist",
+      "year": 2009,
+      "evidenceLevel": "Guideline (Class I)"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "eras-overview",
+    "title": "Enhanced Recovery After Surgery (ERAS) — Core Concepts",
+    "category": "Perioperative medicine",
+    "summary": "A bundle-of-care philosophy across pre-, intra- and post-operative phases aimed at reducing surgical stress response and speeding functional recovery.",
+    "sections": [
+      {
+        "heading": "Pre-operative",
+        "body": "Patient education, carbohydrate loading where appropriate, minimizing prolonged fasting, and optimizing anaemia/comorbidities."
+      },
+      {
+        "heading": "Intra-operative",
+        "body": "Goal-directed fluid therapy, multimodal (opioid-sparing) analgesia, normothermia, and minimally invasive technique where feasible."
+      },
+      {
+        "heading": "Post-operative",
+        "body": "Early mobilization, early oral intake, multimodal analgesia, and structured discharge criteria."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General ERAS philosophy (textbook-level overview)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "pacu-discharge",
+    "title": "PACU Discharge Criteria — General Concepts",
+    "category": "Post-operative",
+    "summary": "Discharge readiness is commonly assessed with a structured scoring approach (e.g. Modified Aldrete-style criteria) covering consciousness, activity, respiration, circulation, and oxygen saturation.",
+    "sections": [
+      {
+        "heading": "Domains typically assessed",
+        "body": "Level of consciousness, motor activity of all extremities, respiratory effort/rate, blood pressure relative to baseline, and SpO2 on room air or usual supplemental oxygen."
+      },
+      {
+        "heading": "Additional considerations",
+        "body": "Adequate pain and nausea control, absence of active bleeding, and, for day-care surgery, a responsible escort and written instructions before discharge home."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "General PACU discharge scoring concepts (textbook-level)",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "ponv-prophylaxis",
+    "title": "PONV Prophylaxis & Management",
+    "category": "Perioperative",
+    "summary": "Multimodal, risk-adapted prophylaxis is more effective than any single agent. Combine a 5-HT3 antagonist with a steroid; add a third agent (droperidol, dexamethasone, scopolamine, or NK-1 antagonist) as baseline risk rises.",
+    "sections": [
+      {
+        "heading": "Risk stratification",
+        "body": "Baseline risk rises with female sex, non-smoking, history of PONV/motion sickness, and opioid use intra/postoperatively. Pediatric patients: with two, three, or four risk factors present, a 5-HT3 antagonist plus a steroid should be given prophylactically; children with all four risk factors need the most aggressive multimodal prophylaxis."
+      },
+      {
+        "heading": "Pharmacologic prophylaxis (Miller's 10th ed.)",
+        "body": "For children at high risk (>2 risk factors), a 5-HT3 antagonist and a steroid should be administered prophylactically. Dexamethasone 0.1–0.2 mg/kg IV at the beginning of the procedure, and ondansetron (adult 4 mg IV ~30 min before the conclusion of surgery) are representative agents. Avoid unnecessary opioids and use total intravenous anaesthesia with propofol where appropriate — propofol has intrinsic antiemetic activity."
+      },
+      {
+        "heading": "Treatment",
+        "body": "For established PONV, give a rescue antiemetic from a different class than prophylaxis already used (e.g. a phenothiazine, butyrophenone/droperidol, or NK-1 antagonist). Address contributing factors (pain, opioids, hypotension, vertigo) and ensure adequate hydration."
+      }
+    ],
+    "flowchartDescription": "Assess baseline risk factors → if ≥2–3 risk factors, give multimodal prophylaxis (5-HT3 + steroid ± third agent) → minimise opioids → rescue with different-class antiemetic if PONV occurs.",
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 76 Postoperative Nausea and Vomiting)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "difficult-airway-miller",
+    "title": "Difficult Airway — Assessment & Plan (Miller's)",
+    "category": "Airway",
+    "summary": "Pre-induction assessment plus a pre-agreed sequential plan (awake vs asleep, preservation of spontaneous ventilation, and a declared fallback) reduces failed-airway harm. Miller's presents a continuum from awake techniques to emergency invasive access.",
+    "sections": [
+      {
+        "heading": "Pre-induction assessment",
+        "body": "Evaluate predictors of difficult laryngoscopy/intubation and difficult mask ventilation (mallampati, mouth opening, thyromental/stemomental distance, neck mobility, beard, obesity, sleep apnoea, prior history). Decide awake vs asleep approach and whether spontaneous ventilation will be preserved."
+      },
+      {
+        "heading": "Sequential (difficult-airway) algorithm principles",
+        "body": "Miller's describes a family of difficult-airway algorithms. Core steps: (1) optimise positioning and attempt laryngoscopy with external laryngeal manipulation / bougie; (2) if first attempt fails, call for help and limit attempts (avoid repeated failed intubations with desaturation); (3) use a supraglottic airway / LMA as a rescue bridge to oxygenation; (4) if ventilation and intubation both fail, proceed to emergency invasive airway (cricothyrotomy/tracheostomy) — the 'cannot intubate, cannot oxygenate' (CICO) pathway; (5) awaken the patient if safe to do so."
+      },
+      {
+        "heading": "Awake approach",
+        "body": "For anticipated difficult airway with preserved spontaneous ventilation, awake fibre-optic or video-laryngoscopic intubation after topicalisation/sedation is preferred. SECURE THE AIRWAY BEFORE inducing general anaesthesia that abolishes ventilation."
+      }
+    ],
+    "flowchartDescription": "Assess predictors → choose awake vs asleep + preserve spont. ventilation → attempt with help/external manipulation → rescue with SGA if intubation fails → if CICO, invasive airway (cricothyrotomy) → or awaken.",
+    "source": {
+      "organization": "Miller RD, Gropper MA, Eriksson LI, Fleisher LA, Wiener-Kronish JP, Cohen NH, eds.",
+      "title": "Miller's Anesthesia, 10th ed. (Ch. 40 Airway Management in the Adult — Algorithms for Management of the Difficult Airway)",
+      "year": 2024,
+      "evidenceLevel": "Expert consensus"
+    },
+    "verificationStatus": "needs-review"
+  },
+  {
+    "id": "lung-protective-ventilation",
+    "title": "Lung-Protective Ventilation (ARDSnet-style)",
+    "category": "ICU",
+    "summary": "Volume- or pressure-controlled ventilation targeting ~6 mL/kg predicted body weight (PBW), plateau pressure ≤30 cmH2O, and permissive hypercapnia, following the structure widely taught after the ARDSnet trial.",
+    "sections": [
+      {
+        "heading": "Core targets",
+        "body": "Tidal volume ~6 mL/kg PBW (range 4–8 mL/kg, titrated down if plateau pressure is high). Plateau pressure ≤30 cmH2O. PEEP set per a PEEP/FiO2 ladder (institution-specific tables vary — use your unit's adopted ARDSnet low- or high-PEEP table). Permissive hypercapnia is accepted (target pH ≥7.20) to protect the lung rather than normalize CO2."
+      },
+      {
+        "heading": "Why predicted body weight, not actual weight",
+        "body": "Lung size correlates with height and sex, not actual body weight — using actual weight in an obese or edematous patient markedly overestimates safe tidal volume and risks volutrauma. PBW uses the same height-based formula as Devine IBW (see Calculators → ICU & Vent)."
+      },
+      {
+        "heading": "Driving pressure",
+        "body": "Driving pressure (plateau − PEEP) has been associated with mortality independent of tidal volume in ARDS cohorts; a commonly taught target is driving pressure <15 cmH2O where achievable."
+      },
+      {
+        "heading": "Adjuncts for moderate–severe ARDS",
+        "body": "Prone positioning (typically ≥12–16h/day) for PaO2/FiO2 <150, conservative fluid strategy once shock is resolved, and neuromuscular blockade in early severe ARDS are commonly taught adjuncts — confirm current institutional/ ICU society guidance before applying."
+      }
+    ],
+    "flowchartDescription": "Confirm ARDS risk factor/onset → set lung-protective TV on PBW → titrate PEEP/FiO2 by ladder → check plateau pressure and driving pressure → if PaO2/FiO2 <150 despite optimization, escalate to proning / neuromuscular blockade / discuss ECMO referral per unit protocol.",
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "sbt-weaning",
+    "title": "Spontaneous Breathing Trial & Ventilator Weaning",
+    "category": "ICU",
+    "summary": "Daily readiness screening followed by a spontaneous breathing trial (SBT) is the widely-taught structure for identifying patients ready for extubation.",
+    "sections": [
+      {
+        "heading": "Readiness criteria (screen daily)",
+        "body": "Resolving underlying cause of respiratory failure, hemodynamically stable (minimal/no vasopressor), adequate oxygenation (e.g. PaO2/FiO2 >150–200 on PEEP ≤5–8 and FiO2 ≤0.4–0.5), able to initiate spontaneous breaths, adequate mentation, and no uncorrected severe metabolic derangement."
+      },
+      {
+        "heading": "Conducting the SBT",
+        "body": "30–120 minutes on low-level pressure support (e.g. PS 5–8 cmH2O) or a T-piece. Watch for tachypnea, desaturation, hemodynamic instability, worsening mental status, or signs of increased work of breathing (accessory muscle use, paradoxical breathing) — any of these fails the trial."
+      },
+      {
+        "heading": "Rapid Shallow Breathing Index (RSBI)",
+        "body": "RSBI = respiratory rate / tidal volume(L). RSBI <105 is a commonly cited (though imperfect) predictor of extubation success; use alongside overall clinical assessment, not in isolation."
+      },
+      {
+        "heading": "Before extubation",
+        "body": "Confirm airway patency (cuff-leak test if high risk), adequate cough/secretion clearance, and see the Extubation Readiness checklist (Protocols & Checklists) for the perioperative-style final check."
+      }
+    ],
+    "flowchartDescription": "Daily readiness screen → if criteria met, conduct SBT → pass → assess airway/cough → extubate with post-extubation monitoring plan. Fail → identify cause, resume ventilatory support, rescreen next day.",
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "vap-prevention-bundle",
+    "title": "Ventilator-Associated Pneumonia (VAP) Prevention Bundle",
+    "category": "ICU",
+    "summary": "A widely-taught bundle of low-cost interventions bundled together (structure resembling IHI/CDC-style VAP bundles) shown to reduce ventilator-associated pneumonia when applied consistently.",
+    "sections": [
+      {
+        "heading": "Core bundle elements",
+        "body": "Head-of-bed elevation 30–45°. Daily sedation interruption/assessment with paired SBT readiness screening. Daily oral care with chlorhexidine per unit protocol. Subglottic secretion drainage where the ETT allows it. Early mobilization where feasible. Peptic ulcer and DVT prophylaxis per unit protocol (not VAP-specific but usually bundled in ICU care checklists)."
+      },
+      {
+        "heading": "Why bundling matters",
+        "body": "No single element has large stand-alone effect; compliance with the full bundle, tracked and audited, is what is associated with reduced VAP rates in the literature this structure is drawn from."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "crrt-initiation",
+    "title": "Continuous Renal Replacement Therapy (CRRT) — Initiation Concepts",
+    "category": "ICU",
+    "summary": "General structure for indications, modality choice, dosing, and anticoagulation considerations when starting CRRT, following commonly taught KDIGO-referenced concepts.",
+    "sections": [
+      {
+        "heading": "Common indications",
+        "body": "Refractory volume overload, refractory hyperkalemia, severe metabolic acidosis, uremic complications (encephalopathy, pericarditis, bleeding), or certain drug/toxin removal — classically remembered by the mnemonic AEIOU (Acidosis, Electrolytes, Intoxication, Overload, Uremia). Confirm against your unit's adopted criteria."
+      },
+      {
+        "heading": "Modality choice",
+        "body": "CVVH (convection), CVVHD (diffusion), CVVHDF (both) are the common continuous modalities; choice is often institution- and availability-driven rather than based on strong outcome differences between modalities."
+      },
+      {
+        "heading": "Dosing",
+        "body": "Prescribed effluent dose commonly targeted at 20–25 mL/kg/hr (see CRRT effluent dose calculator, Calculators → ICU & Vent). Delivered dose typically runs lower than prescribed due to filter downtime — prescribe at the upper end of the target range."
+      },
+      {
+        "heading": "Anticoagulation",
+        "body": "Regional citrate anticoagulation is increasingly preferred where available (longer filter life, lower bleeding risk vs systemic heparin) but requires calcium monitoring protocols; systemic heparin or no anticoagulation are alternatives depending on bleeding risk and local practice."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  },
+  {
+    "id": "icu-sedation-analgesia",
+    "title": "ICU Sedation, Analgesia & Delirium Assessment",
+    "category": "ICU",
+    "summary": "Analgesia-first, lightest-effective-sedation approach with structured, validated scoring, following the widely-taught PAD(IM) framework (Pain, Agitation, Delirium ± Immobility/sleep).",
+    "sections": [
+      {
+        "heading": "Analgesia first",
+        "body": "Treat pain before adding sedatives — untreated pain is itself a common cause of agitation. Use a validated pain scale (e.g. CPOT for non-verbal patients) rather than vital-sign changes alone."
+      },
+      {
+        "heading": "RASS (Richmond Agitation-Sedation Scale)",
+        "body": "Range +4 (combative) to −5 (unarousable). A commonly taught default target for most ICU patients without a specific indication for deep sedation is RASS 0 to −2 (calm/lightly sedated) — daily sedation interruption/awakening trials are used to avoid over-sedation."
+      },
+      {
+        "heading": "CPOT (Critical-Care Pain Observation Tool)",
+        "body": "Observational pain scale (facial expression, body movements, muscle tension, ventilator compliance or vocalization) for patients unable to self-report pain; a commonly cited threshold is CPOT ≥3 suggesting significant pain."
+      },
+      {
+        "heading": "Delirium screening",
+        "body": "Daily delirium screening (e.g. CAM-ICU-style structured assessment) is a widely-taught component of this bundle; delirium is associated with worse outcomes and is often under-recognized, especially the hypoactive subtype."
+      }
+    ],
+    "source": {
+      "organization": "Seed placeholder",
+      "title": "Widely-taught ICU management structure (textbook-level), referencing Surviving Sepsis Campaign / KDIGO / ARDSnet concepts",
+      "year": 2024,
+      "evidenceLevel": "Not graded"
+    },
+    "verificationStatus": "unverified-ai-seed"
+  }
+]
