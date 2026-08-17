@@ -1,3 +1,4 @@
+
 package com.example.anesthesiaassistant.ui.screens
 
 import androidx.compose.foundation.background
@@ -138,7 +139,7 @@ fun DashboardScreen(
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
                                         Icon(
-                                            imageVector = Icons.Default.Siren,
+                                            imageVector = Icons.Default.Campaign,
                                             contentDescription = null,
                                             tint = CriticalRed,
                                             modifier = Modifier.size(16.dp)
