@@ -1,3 +1,4 @@
+
 package com.example.anesthesiaassistant
 
 import android.os.Bundle
@@ -5,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -44,6 +46,17 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+private fun calcIdToTabIndex(calcId: String?): Int = when (calcId) {
+    "bmi" -> 0
+    "fluids", "parkland" -> 1
+    "ebv", "map", "anion_gap" -> 2
+    "ett" -> 3
+    "apfel", "rcri", "stopbang", "childpugh", "meld" -> 4
+    "ards", "crrt" -> 5
+    "la_max" -> 6
+    else -> 0
 }
 
 object Routes {
@@ -255,7 +268,7 @@ fun MainAppShell() {
                     onNavigateToCase = { navController.navigate(Routes.CASE) },
                     onNavigateToCrisis = { id -> navController.navigate("${Routes.CRISIS}?crisisId=$id") },
                     onNavigateToDrug = { id -> navController.navigate("${Routes.DRUGS}?drugId=$id") },
-                    onNavigateToCalc = { navController.navigate(Routes.CALCULATORS) },
+                    onNavigateToCalc = { calcId -> navController.navigate("${Routes.CALCULATORS}?calcId=$calcId") },
                     onNavigateToProtocol = { id -> navController.navigate("${Routes.CHECKLISTS}?protocolId=$id") },
                     onNavigateToAllDrugs = { navController.navigate(Routes.DRUGS) },
                     onNavigateToAllCalcs = { navController.navigate(Routes.CALCULATORS) }
@@ -283,8 +296,16 @@ fun MainAppShell() {
             }
 
             // Calculators
-            composable(Routes.CALCULATORS) {
-                CalculatorsScreen()
+            composable(
+                route = "${Routes.CALCULATORS}?calcId={calcId}",
+                arguments = listOf(navArgument("calcId") {
+                    type = NavType.StringType
+                    nullable = true
+                    defaultValue = null
+                })
+            ) { backStackEntry ->
+                val calcId = backStackEntry.arguments?.getString("calcId")
+                CalculatorsScreen(initialTab = calcIdToTabIndex(calcId))
             }
 
             // Case Planner
