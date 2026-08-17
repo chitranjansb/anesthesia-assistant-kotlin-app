@@ -1,3 +1,4 @@
+
 package com.example.anesthesiaassistant.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
@@ -416,7 +417,7 @@ fun EmergencyQuickModal(
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 Icon(
-                                    imageVector = Icons.Default.Siren,
+                                    imageVector = Icons.Default.Campaign,
                                     contentDescription = null,
                                     tint = CriticalRed,
                                     modifier = Modifier.size(24.dp)
